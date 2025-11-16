@@ -4,6 +4,14 @@
 #define NOMINMAX 1
 #ifdef _WIN32
 #include <windows.h>
+#else
+// Platform-independent alternatives for debugging
+inline bool IsDebuggerPresent() { return false; }
+#ifdef __GNUC__
+#define __debugbreak() __builtin_trap()
+#else
+inline void __debugbreak() {}
+#endif
 #endif
 
 class TodHesitationBracket

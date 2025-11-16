@@ -23,6 +23,9 @@
 #include <list>
 #include <algorithm>
 #include <cstdlib>
+#ifndef _WIN32
+#include <time.h>
+#endif
 
 #define NOMINMAX 1
 #ifdef _WIN32
@@ -31,9 +34,11 @@
 #include <mmsystem.h>
 #else
 // Platform-independent definitions for types used by the codebase
+#include <stdint.h>
 typedef void* HINSTANCE;
 typedef void* HWND;
-typedef unsigned long DWORD;
+typedef void* HICON;
+typedef uint32_t DWORD;
 typedef int BOOL;
 typedef unsigned char BYTE;
 typedef unsigned short WORD;
@@ -52,6 +57,18 @@ typedef DWORD *PDWORD;
 typedef DWORD *LPDWORD;
 typedef void *LPVOID;
 typedef const void *LPCVOID;
+typedef void *LPDIRECTSOUNDBUFFER;
+typedef void *LPEXCEPTION_POINTERS;
+
+// Large integer type
+typedef struct {
+    DWORD LowPart;
+    long HighPart;
+} LARGE_INTEGER;
+
+// Calling conventions
+#define _cdecl
+#define __stdcall
 
 #ifndef FALSE
 #define FALSE 0
@@ -128,6 +145,15 @@ const ulong SEXY_RAND_MAX = 0x7FFFFFFF;
 
 extern bool			gDebug;
 extern HINSTANCE	gHInstance;
+
+// Platform-independent GetTickCount
+#ifndef _WIN32
+inline DWORD GetTickCount() {
+	struct timespec ts;
+	clock_gettime(CLOCK_MONOTONIC, &ts);
+	return (DWORD)((ts.tv_sec * 1000) + (ts.tv_nsec / 1000000));
+}
+#endif
 
 int					Rand();
 int					Rand(int range);
