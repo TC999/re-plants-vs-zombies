@@ -183,6 +183,7 @@ typedef struct {
 
 // Calling conventions
 #define _cdecl
+#define __cdecl
 #define __stdcall
 #define CALLBACK
 #define WINAPI
