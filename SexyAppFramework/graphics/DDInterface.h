@@ -7,7 +7,9 @@
 #include "misc/Rect.h"
 #include "misc/Ratio.h"
 
+#ifdef _WIN32
 #include <ddraw.h>
+#endif
 
 namespace Sexy
 {

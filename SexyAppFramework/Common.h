@@ -27,6 +27,9 @@
 #ifndef _WIN32
 #include <wctype.h>
 #include <strings.h>
+#include <climits>
+#include <cstring>
+#include <unistd.h>
 #endif
 
 #ifdef _WIN32
@@ -60,6 +63,38 @@ typedef void* LPDIRECTSOUND;
 typedef void* LPGUID;
 typedef void* LPVOID;
 typedef void* HFONT;
+typedef const char* LPCTSTR;
+typedef void* LPWIN32_FIND_DATA;
+typedef void* LPDIRECTDRAWSURFACE;
+typedef void* LPDIRECTDRAWSURFACE7;
+typedef void* LPDIRECTDRAW;
+typedef void* LPDIRECTDRAW7;
+typedef void* LPDIRECT3D7;
+typedef void* LPDIRECT3DDEVICE7;
+typedef void* LPDIRECTDRAWPALETTE;
+typedef void* HBITMAP;
+typedef void* LPDDPIXELFORMAT;
+typedef long HRESULT;
+
+// DirectDraw structures
+struct DDSURFACEDESC {
+    char dummy[sizeof(void*)];
+};
+
+struct DDSURFACEDESC2 {
+    char dummy[sizeof(void*)];
+};
+
+struct DDPIXELFORMAT {
+    char dummy[sizeof(void*)];
+};
+
+// Direct3D types
+typedef int D3DTEXTURESTAGESTATETYPE;
+typedef int D3DTEXTUREADDRESS;
+struct D3DVIEWPORT7 {
+    char dummy[sizeof(void*)];
+};
 typedef int BOOL;
 typedef uintptr_t WPARAM;
 typedef intptr_t LPARAM;
@@ -82,6 +117,9 @@ union LARGE_INTEGER {
 #define HKEY_CURRENT_USER ((HKEY)(uintptr_t)0x80000001)
 #define _cdecl
 #define ANSI_CHARSET 0
+#define INVALID_HANDLE_VALUE ((HANDLE)(intptr_t)-1)
+#define PAGE_READWRITE 0x04
+#define FILE_MAP_ALL_ACCESS 0xF001F
 
 // Windows API functions for Linux
 inline DWORD GetTickCount() {
@@ -94,6 +132,63 @@ inline __time64_t _time64(__time64_t* timer) {
     __time64_t t = time(nullptr);
     if (timer) *timer = t;
     return t;
+}
+
+inline int _localtime64_s(struct tm* result, const __time64_t* time) {
+    time_t t = *time;
+    struct tm* tmp = localtime_r(&t, result);
+    return (tmp == nullptr) ? -1 : 0;
+}
+
+#define stricmp strcasecmp
+#define _stricmp strcasecmp
+#define strnicmp strncasecmp
+
+// Windows API function stubs for Linux
+inline DWORD GetCurrentProcessId() {
+    return (DWORD)getpid();
+}
+
+inline BOOL QueryPerformanceCounter(LARGE_INTEGER* lpPerformanceCount) {
+    struct timespec ts;
+    clock_gettime(CLOCK_MONOTONIC, &ts);
+    lpPerformanceCount->QuadPart = (int64_t)ts.tv_sec * 1000000000LL + ts.tv_nsec;
+    return TRUE;
+}
+
+inline BOOL QueryPerformanceFrequency(LARGE_INTEGER* lpFrequency) {
+    lpFrequency->QuadPart = 1000000000LL; // nanoseconds
+    return TRUE;
+}
+
+inline HANDLE CreateFileMappingA(HANDLE hFile, void* lpAttributes, DWORD flProtect, DWORD dwMaximumSizeHigh, DWORD dwMaximumSizeLow, const char* lpName) {
+    // Stub implementation - not used on Linux
+    (void)hFile; (void)lpAttributes; (void)flProtect; (void)dwMaximumSizeHigh; (void)dwMaximumSizeLow; (void)lpName;
+    return nullptr;
+}
+
+inline LPVOID MapViewOfFile(HANDLE hFileMappingObject, DWORD dwDesiredAccess, DWORD dwFileOffsetHigh, DWORD dwFileOffsetLow, size_t dwNumberOfBytesToMap) {
+    // Stub implementation - not used on Linux
+    (void)hFileMappingObject; (void)dwDesiredAccess; (void)dwFileOffsetHigh; (void)dwFileOffsetLow; (void)dwNumberOfBytesToMap;
+    return nullptr;
+}
+
+inline BOOL FindNextFile(HANDLE hFindFile, LPWIN32_FIND_DATA lpFindFileData) {
+    // Stub implementation - not used on Linux
+    (void)hFindFile; (void)lpFindFileData;
+    return FALSE;
+}
+
+inline BOOL FindClose(HANDLE hFindFile) {
+    // Stub implementation - not used on Linux
+    (void)hFindFile;
+    return FALSE;
+}
+
+inline HANDLE FindFirstFile(LPCTSTR lpFileName, LPWIN32_FIND_DATA lpFindFileData) {
+    // Stub implementation - not used on Linux
+    (void)lpFileName; (void)lpFindFileData;
+    return INVALID_HANDLE_VALUE;
 }
 
 // Define RECT structure
@@ -126,6 +221,12 @@ struct GUID {
 // Define CRITICAL_SECTION
 struct CRITICAL_SECTION {
     pthread_mutex_t mutex;
+};
+
+// Define FILETIME structure
+struct FILETIME {
+    DWORD dwLowDateTime;
+    DWORD dwHighDateTime;
 };
 
 // These will be defined by bass.h, but we declare them here for other uses

@@ -2,7 +2,9 @@
 #define __DDIMAGE_H__
 
 #include "MemoryImage.h"
+#ifdef _WIN32
 #include <ddraw.h>
+#endif
 
 namespace Sexy
 {
