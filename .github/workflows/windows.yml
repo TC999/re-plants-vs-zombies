@@ -16,7 +16,7 @@ jobs:
         uses: seanmiddleditch/gha-setup-ninja@master
 
       - name: Config
-        run: cmake -DCMAKE_TOOLCHAIN_FILE=toolchain.cmake -G Ninja -B build
+        run: cmake -G Ninja -B cmake-build
 
       - name: Build
-        run: cmake --build build
+        run: cmake --build cmake-build
