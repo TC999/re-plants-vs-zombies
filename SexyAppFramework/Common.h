@@ -30,6 +30,8 @@
 #include <climits>
 #include <cstring>
 #include <unistd.h>
+#include <cstdarg>
+#include <alloca.h>
 #endif
 
 #ifdef _WIN32
@@ -75,6 +77,8 @@ typedef void* LPDIRECTDRAWPALETTE;
 typedef void* HBITMAP;
 typedef void* LPDDPIXELFORMAT;
 typedef long HRESULT;
+typedef void* _WIN32_FILE_ATTRIBUTE_DATA;
+typedef void* _GET_FILEEX_INFO_LEVELS;
 
 // DirectDraw structures
 struct DDSURFACEDESC {
@@ -143,6 +147,9 @@ inline int _localtime64_s(struct tm* result, const __time64_t* time) {
 #define stricmp strcasecmp
 #define _stricmp strcasecmp
 #define strnicmp strncasecmp
+#define _alloca alloca
+#define _vsnprintf vsnprintf
+#define __stdcall
 
 // Windows API function stubs for Linux
 inline DWORD GetCurrentProcessId() {
@@ -191,6 +198,12 @@ inline HANDLE FindFirstFile(LPCTSTR lpFileName, LPWIN32_FIND_DATA lpFindFileData
     return INVALID_HANDLE_VALUE;
 }
 
+inline BOOL GetFileAttributesEx(LPCTSTR lpFileName, _GET_FILEEX_INFO_LEVELS fInfoLevelId, void* lpFileInformation) {
+    // Stub implementation - not used on Linux
+    (void)lpFileName; (void)fInfoLevelId; (void)lpFileInformation;
+    return FALSE;
+}
+
 // Define RECT structure
 struct RECT {
     LONG left;
@@ -228,6 +241,14 @@ struct FILETIME {
     DWORD dwLowDateTime;
     DWORD dwHighDateTime;
 };
+
+typedef FILETIME _FILETIME;
+
+inline int CompareFileTime(const FILETIME* lpFileTime1, const FILETIME* lpFileTime2) {
+    // Stub implementation - not used on Linux
+    (void)lpFileTime1; (void)lpFileTime2;
+    return 0;
+}
 
 // These will be defined by bass.h, but we declare them here for other uses
 // Note: bass.h will redefine these as DWORD, which is compatible

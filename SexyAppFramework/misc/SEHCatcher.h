@@ -3,7 +3,9 @@
 
 #include "Common.h"
 #include "HTTPTransfer.h"
+#ifdef _WIN32
 #include <imagehlp.h>
+#endif
 
 namespace Sexy
 {
