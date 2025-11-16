@@ -24,7 +24,11 @@ public:
 
 	double GetDuration();
 
+#ifdef _MSC_VER
 	static __int64 GetCPUSpeed(); // in Hz
+#else
+	static int64_t GetCPUSpeed(); // in Hz
+#endif
 	static int GetCPUSpeedMHz(); 
 };
 
@@ -83,8 +87,10 @@ public:
 
 #endif
 
+#ifdef _MSC_VER
 #pragma warning(push)
 #pragma warning(disable:4005)
+#endif
 
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
@@ -119,4 +125,6 @@ public:
 
 #endif
 
+#ifdef _MSC_VER
 #pragma warning(pop)
+#endif

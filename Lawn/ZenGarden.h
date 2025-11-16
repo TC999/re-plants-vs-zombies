@@ -2,6 +2,7 @@
 #define __ZENGARDEN_H__
 
 #include "../ConstEnums.h"
+#include <cstdint>
 #ifdef _MSC_VER
 #include <corecrt.h>
 #endif

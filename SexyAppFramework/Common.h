@@ -38,6 +38,7 @@
 // Define Windows types for non-Windows platforms
 #include <cstdint>
 #include <pthread.h>
+#include <time.h>
 
 typedef uint8_t BYTE;
 typedef uint16_t WORD;
@@ -57,17 +58,43 @@ typedef void* HICON;
 typedef void* LPDIRECTSOUNDBUFFER;
 typedef void* LPDIRECTSOUND;
 typedef void* LPGUID;
+typedef void* LPVOID;
+typedef void* HFONT;
 typedef int BOOL;
 typedef uintptr_t WPARAM;
 typedef intptr_t LPARAM;
 typedef int64_t __time64_t;
 
+// LARGE_INTEGER structure
+union LARGE_INTEGER {
+    struct {
+        DWORD LowPart;
+        LONG HighPart;
+    };
+    LONGLONG QuadPart;
+};
+
 #define WINAPI
+#define CALLBACK
 #define TRUE 1
 #define FALSE 0
 #define MB_OK 0
 #define HKEY_CURRENT_USER ((HKEY)(uintptr_t)0x80000001)
 #define _cdecl
+#define ANSI_CHARSET 0
+
+// Windows API functions for Linux
+inline DWORD GetTickCount() {
+    struct timespec ts;
+    clock_gettime(CLOCK_MONOTONIC, &ts);
+    return (DWORD)(ts.tv_sec * 1000 + ts.tv_nsec / 1000000);
+}
+
+inline __time64_t _time64(__time64_t* timer) {
+    __time64_t t = time(nullptr);
+    if (timer) *timer = t;
+    return t;
+}
 
 // Define RECT structure
 struct RECT {
@@ -102,14 +129,14 @@ struct CRITICAL_SECTION {
 };
 
 // These will be defined by bass.h, but we declare them here for other uses
-// Note: bass.h will redefine these as DWORD, which is fine
+// Note: bass.h will redefine these as DWORD, which is compatible
 #ifndef BASS_H
-typedef void* HFX;
-typedef void* HSYNC;
-typedef void* HMUSIC;
-typedef void* HSTREAM;
-typedef void* HPLUGIN;
-typedef void* HSAMPLE;
+typedef DWORD HFX;
+typedef DWORD HSYNC;
+typedef DWORD HMUSIC;
+typedef DWORD HSTREAM;
+typedef DWORD HPLUGIN;
+typedef DWORD HSAMPLE;
 #endif
 #endif
 #include "misc/ModVal.h"
