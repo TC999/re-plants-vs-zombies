@@ -2,7 +2,9 @@
 #define __TODDEBUG_H__
 
 #define NOMINMAX 1
+#ifdef _WIN32
 #include <windows.h>
+#endif
 
 class TodHesitationBracket
 {

@@ -1,9 +1,12 @@
 #ifndef __SEXYAPPFRAMEWORK_COMMON_H__
 #define __SEXYAPPFRAMEWORK_COMMON_H__
 
+#ifdef _MSC_VER
 #pragma warning(disable:4786)
 #pragma warning(disable:4503)
+#endif
 
+#ifdef _WIN32
 #undef _WIN32_WINNT
 #undef WIN32_LEAN_AND_MEAN
 
@@ -11,6 +14,7 @@
 #define _WIN32_WINNT 0x0500
 #undef _UNICODE
 #undef UNICODE
+#endif
 
 #include <string>
 #include <vector>
@@ -21,9 +25,43 @@
 #include <cstdlib>
 
 #define NOMINMAX 1
+#ifdef _WIN32
 #include <windows.h>
 #include <shellapi.h> 
 #include <mmsystem.h>
+#else
+// Platform-independent definitions for types used by the codebase
+typedef void* HINSTANCE;
+typedef void* HWND;
+typedef unsigned long DWORD;
+typedef int BOOL;
+typedef unsigned char BYTE;
+typedef unsigned short WORD;
+typedef float FLOAT;
+typedef FLOAT *PFLOAT;
+typedef BOOL *PBOOL;
+typedef BOOL *LPBOOL;
+typedef BYTE *PBYTE;
+typedef BYTE *LPBYTE;
+typedef int *PINT;
+typedef int *LPINT;
+typedef WORD *PWORD;
+typedef WORD *LPWORD;
+typedef long *LPLONG;
+typedef DWORD *PDWORD;
+typedef DWORD *LPDWORD;
+typedef void *LPVOID;
+typedef const void *LPCVOID;
+
+#ifndef FALSE
+#define FALSE 0
+#endif
+
+#ifndef TRUE
+#define TRUE 1
+#endif
+#endif
+
 #include "misc/ModVal.h"
 
 // fallback if NOMINMAX fails (somehow?)
@@ -31,7 +69,7 @@
 #undef max
 
 // Define unreachable()
-#ifdef MSVC
+#ifdef _MSC_VER
 #define unreachable std::unreachable
 #else
 #define unreachable __builtin_unreachable
@@ -43,7 +81,11 @@ typedef std::string			SexyString;
 
 #define sexystrncmp			strncmp
 #define sexystrcmp			strcmp
+#ifdef _WIN32
 #define sexystricmp			stricmp
+#else
+#define sexystricmp			strcasecmp
+#endif
 #define sexysscanf			sscanf
 #define sexyatoi			atoi
 #define sexystrcpy			strcpy
@@ -68,7 +110,11 @@ typedef unsigned char uchar;
 typedef unsigned short ushort;
 typedef unsigned int uint;
 typedef unsigned long ulong;
+#ifdef _WIN32
 typedef __int64 int64;
+#else
+typedef long long int64;
+#endif
 
 typedef std::map<std::string, std::string>		DefinesMap;
 typedef std::map<std::wstring, std::wstring>	WStringWStringMap;
@@ -200,7 +246,15 @@ inline void			inlineTrim(std::string &theData, const std::string& theChars = " \
 	inlineLTrim(theData, theChars);
 }
 
-struct StringLessNoCase { bool operator()(const std::string &s1, const std::string &s2) const { return _stricmp(s1.c_str(),s2.c_str())<0; } };
+struct StringLessNoCase { 
+	bool operator()(const std::string &s1, const std::string &s2) const { 
+#ifdef _WIN32
+		return _stricmp(s1.c_str(),s2.c_str())<0; 
+#else
+		return strcasecmp(s1.c_str(),s2.c_str())<0; 
+#endif
+	} 
+};
 
 }
 

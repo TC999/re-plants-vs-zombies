@@ -1,6 +1,8 @@
 #pragma once
 
+#ifdef _WIN32
 #include <wtypes.h>
+#endif
 #include "ConstEnums.h"
 constexpr const double PI = 3.141592653589793;
 

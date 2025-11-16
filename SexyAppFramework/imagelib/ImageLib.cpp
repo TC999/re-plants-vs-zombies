@@ -1,7 +1,9 @@
 #define XMD_H
 
 #define NOMINMAX 1
+#ifdef _WIN32
 #include <windows.h>
+#endif
 #include "ImageLib.h"
 #include "png/png.h"
 #include <math.h>

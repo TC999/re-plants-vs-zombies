@@ -3,7 +3,9 @@
 
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX 1
+#ifdef _WIN32
 #include <windows.h>
+#endif
 #include <stdio.h>
 
 #include "fmod.h"

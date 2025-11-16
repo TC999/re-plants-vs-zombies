@@ -1,7 +1,12 @@
 #include "PakInterface.h"
 #define NOMINMAX 1
+#ifdef _WIN32
 #include <windows.h>
 #include <direct.h>
+#else
+#include <sys/stat.h>
+#include <sys/types.h>
+#endif
 
 typedef unsigned char uchar;
 typedef unsigned short ushort;

@@ -2,7 +2,9 @@
 #define __SOUNDINSTANCE_H__
 
 #define NOMINMAX 1
+#ifdef _WIN32
 #include <windows.h>
+#endif
 #include "Common.h"
 
 namespace Sexy
