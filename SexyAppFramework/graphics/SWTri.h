@@ -39,7 +39,11 @@ public:
 		unsigned int		a, r, g, b;
 	};
 
-	typedef	__int64	signed64;
+#ifdef _WIN32
+	typedef __int64 signed64;
+#else
+	typedef long long signed64;
+#endif
 
 public:
 	// For drawing

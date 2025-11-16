@@ -25,6 +25,8 @@
 #include <cstdlib>
 #ifndef _WIN32
 #include <time.h>
+#include <strings.h>
+#include <cwctype>
 #endif
 
 #define NOMINMAX 1
@@ -38,10 +40,29 @@
 typedef void* HINSTANCE;
 typedef void* HWND;
 typedef void* HICON;
+typedef void* HMODULE;
+typedef void* HANDLE;
+typedef void* HKEY;
+typedef void* HCURSOR;
+typedef void* HFONT;
+typedef uint32_t UINT;
+typedef long LONG;
+typedef intptr_t WPARAM;
+typedef intptr_t LPARAM;
+typedef intptr_t LRESULT;
+typedef int64_t __time64_t;
+#ifndef DWORD
 typedef uint32_t DWORD;
+#endif
+#ifndef BOOL
 typedef int BOOL;
+#endif
+#ifndef BYTE
 typedef unsigned char BYTE;
+#endif
+#ifndef WORD
 typedef unsigned short WORD;
+#endif
 typedef float FLOAT;
 typedef FLOAT *PFLOAT;
 typedef BOOL *PBOOL;
@@ -60,6 +81,38 @@ typedef const void *LPCVOID;
 typedef void *LPDIRECTSOUNDBUFFER;
 typedef void *LPEXCEPTION_POINTERS;
 
+// GUID structure
+typedef struct _GUID {
+    uint32_t Data1;
+    uint16_t Data2;
+    uint16_t Data3;
+    uint8_t  Data4[8];
+} GUID;
+
+// RECT structure  
+typedef struct tagRECT {
+    LONG left;
+    LONG top;
+    LONG right;
+    LONG bottom;
+} RECT;
+
+// Windows message structure
+typedef struct tagMSG {
+    HWND   hwnd;
+    UINT   message;
+    WPARAM wParam;
+    LPARAM lParam;
+    DWORD  time;
+    int    pt_x;
+    int    pt_y;
+} MSG;
+
+// Critical section
+typedef struct {
+    void* unused[6];
+} CRITICAL_SECTION;
+
 // Large integer type
 typedef struct {
     DWORD LowPart;
@@ -69,6 +122,20 @@ typedef struct {
 // Calling conventions
 #define _cdecl
 #define __stdcall
+#define CALLBACK
+#define WINAPI
+
+// Registry constants
+#define HKEY_CURRENT_USER ((HKEY)0x80000001)
+
+// MessageBox constants
+#define MB_OK 0x00000000L
+
+// Character set constants
+#define ANSI_CHARSET 0
+
+// Time function compatibility
+#define _time64(x) time(x)
 
 #ifndef FALSE
 #define FALSE 0
