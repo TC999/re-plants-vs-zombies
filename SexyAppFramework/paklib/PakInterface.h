@@ -5,9 +5,11 @@
 #include <list>
 #include <string>
 
+#ifdef _WIN32
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX 1
 #include <windows.h>
+#endif
 
 class PakCollection;
 

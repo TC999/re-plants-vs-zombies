@@ -24,11 +24,93 @@
 #include <algorithm>
 #include <cstdlib>
 
+#ifndef _WIN32
+#include <wctype.h>
+#include <strings.h>
+#endif
+
 #ifdef _WIN32
 #define NOMINMAX 1
 #include <windows.h>
 #include <shellapi.h> 
 #include <mmsystem.h>
+#else
+// Define Windows types for non-Windows platforms
+#include <cstdint>
+#include <pthread.h>
+
+typedef uint8_t BYTE;
+typedef uint16_t WORD;
+typedef uint32_t DWORD;
+typedef int32_t LONG;
+typedef uint32_t UINT;
+typedef int64_t LONGLONG;
+typedef uint64_t QWORD;
+typedef long LRESULT;
+typedef void* HANDLE;
+typedef void* HMODULE;
+typedef void* HINSTANCE;
+typedef void* HWND;
+typedef void* HCURSOR;
+typedef void* HKEY;
+typedef void* HICON;
+typedef void* LPDIRECTSOUNDBUFFER;
+typedef void* LPDIRECTSOUND;
+typedef void* LPGUID;
+typedef int BOOL;
+typedef uintptr_t WPARAM;
+typedef intptr_t LPARAM;
+typedef int64_t __time64_t;
+
+#define WINAPI
+#define TRUE 1
+#define FALSE 0
+#define MB_OK 0
+#define HKEY_CURRENT_USER ((HKEY)(uintptr_t)0x80000001)
+#define _cdecl
+
+// Define RECT structure
+struct RECT {
+    LONG left;
+    LONG top;
+    LONG right;
+    LONG bottom;
+};
+
+// Define MSG structure
+struct MSG {
+    HWND hwnd;
+    UINT message;
+    WPARAM wParam;
+    LPARAM lParam;
+    DWORD time;
+    int pt_x;
+    int pt_y;
+};
+
+// Define GUID structure
+struct GUID {
+    uint32_t Data1;
+    uint16_t Data2;
+    uint16_t Data3;
+    uint8_t Data4[8];
+};
+
+// Define CRITICAL_SECTION
+struct CRITICAL_SECTION {
+    pthread_mutex_t mutex;
+};
+
+// These will be defined by bass.h, but we declare them here for other uses
+// Note: bass.h will redefine these as DWORD, which is fine
+#ifndef BASS_H
+typedef void* HFX;
+typedef void* HSYNC;
+typedef void* HMUSIC;
+typedef void* HSTREAM;
+typedef void* HPLUGIN;
+typedef void* HSAMPLE;
+#endif
 #endif
 #include "misc/ModVal.h"
 

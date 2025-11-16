@@ -1,9 +1,11 @@
 #ifndef __BASSLOADER_H__
 #define __BASSLOADER_H__
 
+#ifdef _WIN32
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX 1
 #include <windows.h>
+#endif
 #include <stdio.h>
 
 #include "bass.h"
