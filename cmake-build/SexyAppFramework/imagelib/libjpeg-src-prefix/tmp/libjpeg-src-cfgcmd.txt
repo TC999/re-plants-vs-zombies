@@ -1,0 +1,1 @@
+cmd='/usr/local/bin/cmake;-DCMAKE_TOOLCHAIN_FILE:FILEPATH=;-DCMAKE_INSTALL_PREFIX=/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/libjpeg/install;-DCMAKE_C_FLAGS= -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3;-DENABLE_SHARED=FALSE;-DWITH_TURBOJPEG=FALSE;-Wno-dev;-GNinja;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'
