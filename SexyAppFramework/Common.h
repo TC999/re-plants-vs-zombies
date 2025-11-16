@@ -27,6 +27,7 @@
 #include <time.h>
 #include <strings.h>
 #include <cwctype>
+#include <unistd.h>
 #endif
 
 #define NOMINMAX 1
@@ -80,6 +81,28 @@ typedef void *LPVOID;
 typedef const void *LPCVOID;
 typedef void *LPDIRECTSOUNDBUFFER;
 typedef void *LPEXCEPTION_POINTERS;
+typedef void *LPDIRECT3DDEVICE7;
+typedef void *LPDIRECTDRAW7;
+typedef void *LPDIRECTDRAWSURFACE7;
+typedef void *LPDIRECT3D7;
+typedef void *LPDDPIXELFORMAT;
+typedef void *LPDIRECTDRAWSURFACE;
+typedef void *LPDIRECTDRAW;
+typedef void *LPDIRECTDRAWPALETTE;
+typedef void *HBITMAP;
+typedef long HRESULT;
+typedef struct {
+    int unused;
+} D3DVIEWPORT7;
+typedef struct {
+    int unused;
+} DDPIXELFORMAT;
+typedef struct {
+    int unused;
+} DDSURFACEDESC;
+typedef struct {
+    int unused;
+} DDSURFACEDESC2;
 
 // GUID structure
 typedef struct _GUID {
@@ -130,6 +153,20 @@ typedef struct tagMSG {
     int    pt_y;
 } MSG;
 
+// File attribute data
+typedef struct _WIN32_FILE_ATTRIBUTE_DATA {
+    DWORD dwFileAttributes;
+    FILETIME ftCreationTime;
+    FILETIME ftLastAccessTime;
+    FILETIME ftLastWriteTime;
+    DWORD nFileSizeHigh;
+    DWORD nFileSizeLow;
+} WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA;
+
+typedef enum _GET_FILEEX_INFO_LEVELS {
+    GetFileExInfoStandard = 0
+} GET_FILEEX_INFO_LEVELS;
+
 // Critical section
 typedef struct {
     void* unused[6];
@@ -139,6 +176,9 @@ typedef struct {
 typedef struct {
     DWORD LowPart;
     long HighPart;
+#ifdef _WIN32
+    int64_t QuadPart;
+#endif
 } LARGE_INTEGER;
 
 // Calling conventions
@@ -166,6 +206,47 @@ typedef struct {
 #ifndef TRUE
 #define TRUE 1
 #endif
+
+// File mapping constants and functions
+#define INVALID_HANDLE_VALUE ((HANDLE)-1)
+#define PAGE_READWRITE 0x04
+#define FILE_MAP_ALL_ACCESS 0xF001F
+
+// Stub implementations for file mapping
+inline DWORD GetCurrentProcessId() { return (DWORD)getpid(); }
+inline HANDLE CreateFileMappingA(HANDLE hFile, void* lpAttributes, DWORD flProtect, 
+                                  DWORD dwMaximumSizeHigh, DWORD dwMaximumSizeLow, const char* lpName) {
+    (void)hFile; (void)lpAttributes; (void)flProtect; 
+    (void)dwMaximumSizeHigh; (void)dwMaximumSizeLow; (void)lpName;
+    return nullptr;
+}
+inline void* MapViewOfFile(HANDLE hFileMappingObject, DWORD dwDesiredAccess, 
+                            DWORD dwFileOffsetHigh, DWORD dwFileOffsetLow, size_t dwNumberOfBytesToMap) {
+    (void)hFileMappingObject; (void)dwDesiredAccess; 
+    (void)dwFileOffsetHigh; (void)dwFileOffsetLow; (void)dwNumberOfBytesToMap;
+    return nullptr;
+}
+inline HANDLE FindFirstFile(const char* lpFileName, LPWIN32_FIND_DATA lpFindFileData) {
+    (void)lpFileName; (void)lpFindFileData;
+    return INVALID_HANDLE_VALUE;
+}
+inline BOOL FindNextFile(HANDLE hFindFile, LPWIN32_FIND_DATA lpFindFileData) {
+    (void)hFindFile; (void)lpFindFileData;
+    return FALSE;
+}
+inline BOOL FindClose(HANDLE hFindFile) {
+    (void)hFindFile;
+    return TRUE;
+}
+inline BOOL GetFileAttributesEx(const char* lpFileName, GET_FILEEX_INFO_LEVELS fInfoLevelId, LPVOID lpFileInformation) {
+    (void)lpFileName; (void)fInfoLevelId; (void)lpFileInformation;
+    return FALSE;
+}
+inline LONG CompareFileTime(const FILETIME* lpFileTime1, const FILETIME* lpFileTime2) {
+    (void)lpFileTime1; (void)lpFileTime2;
+    return 0;
+}
+
 #endif
 
 #include "misc/ModVal.h"
@@ -189,8 +270,18 @@ typedef std::string			SexyString;
 #define sexystrcmp			strcmp
 #ifdef _WIN32
 #define sexystricmp			stricmp
+#define _stricmp			stricmp
+#define stricmp				_stricmp
+#define strnicmp			_strnicmp
+#define _vsnprintf			vsnprintf
+#define _alloca				alloca
 #else
 #define sexystricmp			strcasecmp
+#define _stricmp			strcasecmp
+#define stricmp				strcasecmp
+#define strnicmp			strncasecmp
+#define _vsnprintf			vsnprintf
+#define _alloca				alloca
 #endif
 #define sexysscanf			sscanf
 #define sexyatoi			atoi

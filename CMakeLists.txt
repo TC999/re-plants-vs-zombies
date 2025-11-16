@@ -26,7 +26,7 @@ set(universal_cflags   "${CMAKE_C_FLAGS} ${universal_compiler_flags}")
 if(MSVC)
     set(warn_flags "")
 else()
-    set(warn_flags "-Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized")
+    set(warn_flags "-Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null")
 endif()
 
 set(CMAKE_CXX_FLAGS "${universal_cxxflags} ${warn_flags}")

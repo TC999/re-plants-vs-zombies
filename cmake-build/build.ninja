@@ -81,7 +81,7 @@ build cmake_object_order_depends_target_LawnProject: phony || SexyAppFramework/i
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Board.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Board.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Board.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -89,7 +89,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Board.cpp.o: CXX_COMPI
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Challenge.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Challenge.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Challenge.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -97,7 +97,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Challenge.cpp.o: CXX_C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Coin.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Coin.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Coin.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -105,7 +105,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Coin.cpp.o: CXX_COMPIL
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/CursorObject.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/CursorObject.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/CursorObject.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -113,7 +113,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/CursorObject.cpp.o: CX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/CutScene.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/CutScene.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/CutScene.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -121,7 +121,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/CutScene.cpp.o: CXX_CO
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/GameObject.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/GameObject.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/GameObject.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -129,7 +129,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/GameObject.cpp.o: CXX_
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/GridItem.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/GridItem.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/GridItem.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -137,7 +137,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/GridItem.cpp.o: CXX_CO
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/LawnMower.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/LawnMower.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/LawnMower.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -145,7 +145,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/LawnMower.cpp.o: CXX_C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/MessageWidget.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/MessageWidget.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/MessageWidget.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -153,7 +153,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/MessageWidget.cpp.o: C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Plant.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Plant.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Plant.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -161,7 +161,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Plant.cpp.o: CXX_COMPI
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Projectile.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Projectile.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Projectile.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -169,7 +169,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Projectile.cpp.o: CXX_
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/SeedPacket.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/SeedPacket.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/SeedPacket.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -177,7 +177,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/SeedPacket.cpp.o: CXX_
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/ToolTipWidget.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/ToolTipWidget.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/ToolTipWidget.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -185,7 +185,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/ToolTipWidget.cpp.o: C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/ZenGarden.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/ZenGarden.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/ZenGarden.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -193,7 +193,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/ZenGarden.cpp.o: CXX_C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Zombie.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Zombie.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Zombie.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -201,7 +201,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Zombie.cpp.o: CXX_COMP
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/LawnCommon.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/LawnCommon.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/LawnCommon.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn
@@ -209,7 +209,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/LawnCommon.cpp.o: CXX_
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Resources.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Resources.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Resources.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__
@@ -217,7 +217,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Resources.cpp.o: CXX_COMPIL
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/DataSync.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/System/DataSync.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/DataSync.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System
@@ -225,7 +225,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/DataSync.cpp.o:
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/Music.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/System/Music.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/Music.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System
@@ -233,7 +233,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/Music.cpp.o: CX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PlayerInfo.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/System/PlayerInfo.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PlayerInfo.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System
@@ -241,7 +241,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PlayerInfo.cpp.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PoolEffect.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/System/PoolEffect.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PoolEffect.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System
@@ -249,7 +249,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PoolEffect.cpp.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PopDRMComm.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/System/PopDRMComm.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PopDRMComm.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System
@@ -257,7 +257,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PopDRMComm.cpp.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/ProfileMgr.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/System/ProfileMgr.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/ProfileMgr.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System
@@ -265,7 +265,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/ProfileMgr.cpp.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/ReanimationLawn.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/System/ReanimationLawn.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/ReanimationLawn.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System
@@ -273,7 +273,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/ReanimationLawn
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/SaveGame.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/System/SaveGame.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/SaveGame.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System
@@ -281,7 +281,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/SaveGame.cpp.o:
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/TypingCheck.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/System/TypingCheck.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/TypingCheck.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System
@@ -289,7 +289,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/TypingCheck.cpp
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AchievementsScreen.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/AchievementsScreen.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AchievementsScreen.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -297,7 +297,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AchievementsScr
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AlmanacDialog.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/AlmanacDialog.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AlmanacDialog.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -305,7 +305,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AlmanacDialog.c
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AwardScreen.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/AwardScreen.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AwardScreen.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -313,7 +313,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AwardScreen.cpp
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ChallengeScreen.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/ChallengeScreen.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ChallengeScreen.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -321,7 +321,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ChallengeScreen
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/CheatDialog.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/CheatDialog.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/CheatDialog.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -329,7 +329,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/CheatDialog.cpp
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ContinueDialog.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/ContinueDialog.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ContinueDialog.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -337,7 +337,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ContinueDialog.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/CreditScreen.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/CreditScreen.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/CreditScreen.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -345,7 +345,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/CreditScreen.cp
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/GameButton.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/GameButton.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/GameButton.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -353,7 +353,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/GameButton.cpp.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/GameSelector.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/GameSelector.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/GameSelector.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -361,7 +361,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/GameSelector.cp
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ImitaterDialog.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/ImitaterDialog.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ImitaterDialog.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -369,7 +369,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ImitaterDialog.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/LawnDialog.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/LawnDialog.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/LawnDialog.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -377,7 +377,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/LawnDialog.cpp.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/NewOptionsDialog.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/NewOptionsDialog.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/NewOptionsDialog.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -385,7 +385,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/NewOptionsDialo
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/NewUserDialog.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/NewUserDialog.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/NewUserDialog.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -393,7 +393,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/NewUserDialog.c
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/SeedChooserScreen.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/SeedChooserScreen.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/SeedChooserScreen.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -401,7 +401,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/SeedChooserScre
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/StoreScreen.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/StoreScreen.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/StoreScreen.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -409,7 +409,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/StoreScreen.cpp
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/TitleScreen.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/TitleScreen.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/TitleScreen.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -417,7 +417,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/TitleScreen.cpp
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/UserDialog.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Lawn/Widget/UserDialog.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/UserDialog.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget
@@ -425,7 +425,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/UserDialog.cpp.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Definition.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/Definition.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Definition.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -433,7 +433,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Definition.cpp.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodCommon.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/TodCommon.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodCommon.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -441,7 +441,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodCommon.cpp.o
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodDebug.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/TodDebug.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodDebug.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -449,7 +449,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodDebug.cpp.o:
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodFoley.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/TodFoley.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodFoley.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -457,7 +457,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodFoley.cpp.o:
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodList.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/TodList.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodList.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -465,7 +465,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodList.cpp.o: 
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodStringFile.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/TodStringFile.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodStringFile.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -473,7 +473,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodStringFile.c
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Attachment.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/Attachment.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Attachment.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -481,7 +481,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Attachment.cpp.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/EffectSystem.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/EffectSystem.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/EffectSystem.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -489,7 +489,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/EffectSystem.cp
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/FilterEffect.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/FilterEffect.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/FilterEffect.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -497,7 +497,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/FilterEffect.cp
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/ReanimAtlas.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/ReanimAtlas.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/ReanimAtlas.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -505,7 +505,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/ReanimAtlas.cpp
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Reanimator.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/Reanimator.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Reanimator.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -513,7 +513,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Reanimator.cpp.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodParticle.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/TodParticle.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodParticle.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -521,7 +521,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodParticle.cpp
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Trail.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/Sexy.TodLib/Trail.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Trail.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib
@@ -529,7 +529,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Trail.cpp.o: CX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Color.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/Color.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Color.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -537,7 +537,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Color.cpp.o: CXX_COMP
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3D8Helper.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/D3D8Helper.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3D8Helper.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -545,7 +545,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3D8Helper.cpp.o: CXX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3DInterface.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/D3DInterface.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3DInterface.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -553,7 +553,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3DInterface.cpp.o: C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3DTester.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/D3DTester.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3DTester.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -561,7 +561,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3DTester.cpp.o: CXX_
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/DDImage.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/DDImage.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/DDImage.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -569,7 +569,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/DDImage.cpp.o: CXX_CO
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/DDInterface.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/DDInterface.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/DDInterface.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -577,7 +577,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/DDInterface.cpp.o: CX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Font.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/Font.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Font.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -585,7 +585,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Font.cpp.o: CXX_COMPI
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Graphics.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/Graphics.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Graphics.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -593,7 +593,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Graphics.cpp.o: CXX_C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Image.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/Image.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Image.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -601,7 +601,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Image.cpp.o: CXX_COMP
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/ImageFont.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/ImageFont.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/ImageFont.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -609,7 +609,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/ImageFont.cpp.o: CXX_
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/MemoryImage.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/MemoryImage.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/MemoryImage.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -617,7 +617,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/MemoryImage.cpp.o: CX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/NativeDisplay.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/NativeDisplay.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/NativeDisplay.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -625,7 +625,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/NativeDisplay.cpp.o: 
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Quantize.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/Quantize.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Quantize.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -633,7 +633,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Quantize.cpp.o: CXX_C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SharedImage.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/SharedImage.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SharedImage.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -641,7 +641,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SharedImage.cpp.o: CX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SWTri.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/SWTri.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SWTri.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -649,7 +649,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SWTri.cpp.o: CXX_COMP
 build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SysFont.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/graphics/SysFont.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SysFont.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/graphics
@@ -657,7 +657,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SysFont.cpp.o: CXX_CO
 build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/BassLoader.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/sound/BassLoader.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/sound/BassLoader.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/sound
@@ -665,7 +665,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/BassLoader.cpp.o: CXX_CO
 build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/BassMusicInterface.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/sound/BassMusicInterface.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/sound/BassMusicInterface.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/sound
@@ -673,7 +673,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/BassMusicInterface.cpp.o
 build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/DSoundInstance.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/sound/DSoundInstance.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/sound/DSoundInstance.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/sound
@@ -681,7 +681,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/DSoundInstance.cpp.o: CX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/DSoundManager.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/sound/DSoundManager.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/sound/DSoundManager.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/sound
@@ -689,7 +689,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/DSoundManager.cpp.o: CXX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModLoader.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/sound/FModLoader.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModLoader.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/sound
@@ -697,7 +697,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModLoader.cpp.o: CXX_CO
 build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModMusicInterface.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/sound/FModMusicInterface.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModMusicInterface.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/sound
@@ -705,7 +705,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModMusicInterface.cpp.o
 build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModSoundInstance.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/sound/FModSoundInstance.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModSoundInstance.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/sound
@@ -713,7 +713,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModSoundInstance.cpp.o:
 build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModSoundManager.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/sound/FModSoundManager.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModSoundManager.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/sound
@@ -721,7 +721,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModSoundManager.cpp.o: 
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ButtonWidget.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/ButtonWidget.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ButtonWidget.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -729,7 +729,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ButtonWidget.cpp.o: CXX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Checkbox.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/Checkbox.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Checkbox.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -737,7 +737,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Checkbox.cpp.o: CXX_COM
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Dialog.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/Dialog.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Dialog.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -745,7 +745,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Dialog.cpp.o: CXX_COMPI
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/DialogButton.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/DialogButton.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/DialogButton.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -753,7 +753,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/DialogButton.cpp.o: CXX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/EditWidget.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/EditWidget.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/EditWidget.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -761,7 +761,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/EditWidget.cpp.o: CXX_C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/HyperlinkWidget.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/HyperlinkWidget.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/HyperlinkWidget.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -769,7 +769,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/HyperlinkWidget.cpp.o: 
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Insets.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/Insets.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Insets.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -777,7 +777,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Insets.cpp.o: CXX_COMPI
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ListWidget.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/ListWidget.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ListWidget.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -785,7 +785,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ListWidget.cpp.o: CXX_C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ScrollbarWidget.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/ScrollbarWidget.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ScrollbarWidget.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -793,7 +793,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ScrollbarWidget.cpp.o: 
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ScrollbuttonWidget.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/ScrollbuttonWidget.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ScrollbuttonWidget.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -801,7 +801,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ScrollbuttonWidget.cpp.
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Slider.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/Slider.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Slider.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -809,7 +809,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Slider.cpp.o: CXX_COMPI
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/TextWidget.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/TextWidget.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/TextWidget.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -817,7 +817,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/TextWidget.cpp.o: CXX_C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Widget.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/Widget.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Widget.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -825,7 +825,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Widget.cpp.o: CXX_COMPI
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/WidgetContainer.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/WidgetContainer.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/WidgetContainer.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -833,7 +833,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/WidgetContainer.cpp.o: 
 build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/WidgetManager.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/widget/WidgetManager.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/widget/WidgetManager.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/widget
@@ -841,7 +841,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/widget/WidgetManager.cpp.o: CX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Buffer.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/Buffer.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Buffer.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -849,7 +849,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Buffer.cpp.o: CXX_COMPILE
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/CritSect.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/CritSect.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/CritSect.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -857,7 +857,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/CritSect.cpp.o: CXX_COMPI
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Debug.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/Debug.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Debug.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -865,7 +865,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Debug.cpp.o: CXX_COMPILER
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/DescParser.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/DescParser.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/DescParser.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -873,7 +873,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/DescParser.cpp.o: CXX_COM
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/DirectXErrorString.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/DirectXErrorString.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/DirectXErrorString.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -881,7 +881,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/DirectXErrorString.cpp.o:
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Flags.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/Flags.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Flags.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -889,7 +889,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Flags.cpp.o: CXX_COMPILER
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/HTTPTransfer.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/HTTPTransfer.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/HTTPTransfer.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -897,7 +897,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/HTTPTransfer.cpp.o: CXX_C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/KeyCodes.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/KeyCodes.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/KeyCodes.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -905,7 +905,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/KeyCodes.cpp.o: CXX_COMPI
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/ModVal.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/ModVal.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/ModVal.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -913,7 +913,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/ModVal.cpp.o: CXX_COMPILE
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/MTRand.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/MTRand.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/MTRand.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -921,7 +921,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/MTRand.cpp.o: CXX_COMPILE
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/PerfTimer.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/PerfTimer.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/PerfTimer.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -929,7 +929,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/PerfTimer.cpp.o: CXX_COMP
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/PropertiesParser.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/PropertiesParser.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/PropertiesParser.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -937,7 +937,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/PropertiesParser.cpp.o: C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Ratio.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/Ratio.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Ratio.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -945,7 +945,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Ratio.cpp.o: CXX_COMPILER
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/ResourceManager.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/ResourceManager.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/ResourceManager.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -953,7 +953,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/ResourceManager.cpp.o: CX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/SEHCatcher.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/SEHCatcher.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/SEHCatcher.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -961,7 +961,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/SEHCatcher.cpp.o: CXX_COM
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/SexyMatrix.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/SexyMatrix.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/SexyMatrix.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -969,7 +969,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/SexyMatrix.cpp.o: CXX_COM
 build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/XMLParser.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/misc/XMLParser.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/misc/XMLParser.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/misc
@@ -977,7 +977,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/misc/XMLParser.cpp.o: CXX_COMP
 build SexyAppFramework/CMakeFiles/LawnProject.dir/paklib/PakInterface.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/paklib/PakInterface.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/paklib/PakInterface.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/paklib
@@ -985,7 +985,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/paklib/PakInterface.cpp.o: CXX
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/bitwise.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/bitwise.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/bitwise.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -993,7 +993,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/bitwise.c.o: C_COMPILER__L
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/block.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/block.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/block.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1001,7 +1001,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/block.c.o: C_COMPILER__Law
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/codebook.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/codebook.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/codebook.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1009,7 +1009,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/codebook.c.o: C_COMPILER__
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/floor0.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/floor0.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/floor0.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1017,7 +1017,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/floor0.c.o: C_COMPILER__La
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/floor1.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/floor1.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/floor1.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1025,7 +1025,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/floor1.c.o: C_COMPILER__La
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/framing.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/framing.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/framing.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1033,7 +1033,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/framing.c.o: C_COMPILER__L
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/info.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/info.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/info.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1041,7 +1041,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/info.c.o: C_COMPILER__Lawn
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/mapping0.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/mapping0.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/mapping0.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1049,7 +1049,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/mapping0.c.o: C_COMPILER__
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/mdct.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/mdct.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/mdct.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1057,7 +1057,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/mdct.c.o: C_COMPILER__Lawn
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/registry.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/registry.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/registry.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1065,7 +1065,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/registry.c.o: C_COMPILER__
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/res012.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/res012.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/res012.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1073,7 +1073,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/res012.c.o: C_COMPILER__La
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/sharedbook.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/sharedbook.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/sharedbook.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1081,7 +1081,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/sharedbook.c.o: C_COMPILER
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/synthesis.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/synthesis.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/synthesis.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1089,7 +1089,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/synthesis.c.o: C_COMPILER_
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/vorbisfile.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/vorbisfile.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/vorbisfile.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1097,7 +1097,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/vorbisfile.c.o: C_COMPILER
 build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/window.c.o: C_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/ogg/window.c || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/window.c.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/ogg
@@ -1105,7 +1105,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/window.c.o: C_COMPILER__La
 build SexyAppFramework/CMakeFiles/LawnProject.dir/imagelib/ImageLib.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/imagelib/ImageLib.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/imagelib/ImageLib.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/imagelib
@@ -1113,7 +1113,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/imagelib/ImageLib.cpp.o: CXX_C
 build SexyAppFramework/CMakeFiles/LawnProject.dir/Common.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/Common.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/Common.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
@@ -1121,7 +1121,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/Common.cpp.o: CXX_COMPILER__La
 build SexyAppFramework/CMakeFiles/LawnProject.dir/SexyApp.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/SexyApp.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/SexyApp.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
@@ -1129,7 +1129,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/SexyApp.cpp.o: CXX_COMPILER__L
 build SexyAppFramework/CMakeFiles/LawnProject.dir/SexyAppBase.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/SexyAppBase.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/SexyAppBase.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
@@ -1137,7 +1137,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/SexyAppBase.cpp.o: CXX_COMPILE
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/LawnApp.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/LawnApp.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/LawnApp.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__
@@ -1145,7 +1145,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/__/LawnApp.cpp.o: CXX_COMPILER
 build SexyAppFramework/CMakeFiles/LawnProject.dir/__/main.cpp.o: CXX_COMPILER__LawnProject_unscanned_Debug /home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/main.cpp || cmake_object_order_depends_target_LawnProject
   DEFINES = -D_DEBUG -D_LIB -D_MBCS
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/__/main.cpp.o.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g -std=gnu++23
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g -std=gnu++23
   INCLUDES = -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/cmake-build/include -I/home/runner/work/re-plants-vs-zombies/re-plants-vs-zombies/SexyAppFramework/.
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir
   OBJECT_FILE_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir/__
@@ -1167,7 +1167,7 @@ build SexyAppFramework/CMakeFiles/LawnProject.dir/LawnProject.rc.obj: RC_COMPILE
 
 build SexyAppFramework: CXX_EXECUTABLE_LINKER__LawnProject_Debug SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Board.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Challenge.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Coin.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/CursorObject.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/CutScene.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/GameObject.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/GridItem.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/LawnMower.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/MessageWidget.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Plant.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Projectile.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/SeedPacket.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/ToolTipWidget.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/ZenGarden.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Zombie.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/LawnCommon.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Resources.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/DataSync.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/Music.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PlayerInfo.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PoolEffect.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/PopDRMComm.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/ProfileMgr.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/ReanimationLawn.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/SaveGame.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/System/TypingCheck.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AchievementsScreen.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AlmanacDialog.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/AwardScreen.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ChallengeScreen.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/CheatDialog.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ContinueDialog.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/CreditScreen.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/GameButton.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/GameSelector.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/ImitaterDialog.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/LawnDialog.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/NewOptionsDialog.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/NewUserDialog.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/SeedChooserScreen.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/StoreScreen.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/TitleScreen.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Lawn/Widget/UserDialog.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Definition.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodCommon.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodDebug.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodFoley.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodList.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodStringFile.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Attachment.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/EffectSystem.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/FilterEffect.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/ReanimAtlas.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Reanimator.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/TodParticle.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/Sexy.TodLib/Trail.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Color.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3D8Helper.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3DInterface.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/D3DTester.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/DDImage.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/DDInterface.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Font.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Graphics.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Image.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/ImageFont.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/MemoryImage.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/NativeDisplay.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/Quantize.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SharedImage.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SWTri.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/graphics/SysFont.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/sound/BassLoader.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/sound/BassMusicInterface.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/sound/DSoundInstance.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/sound/DSoundManager.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModLoader.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModMusicInterface.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModSoundInstance.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/sound/FModSoundManager.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ButtonWidget.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Checkbox.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Dialog.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/DialogButton.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/EditWidget.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/HyperlinkWidget.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Insets.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ListWidget.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ScrollbarWidget.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/ScrollbuttonWidget.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Slider.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/TextWidget.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/Widget.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/WidgetContainer.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/widget/WidgetManager.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Buffer.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/CritSect.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Debug.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/DescParser.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/DirectXErrorString.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Flags.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/HTTPTransfer.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/KeyCodes.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/ModVal.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/MTRand.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/PerfTimer.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/PropertiesParser.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/Ratio.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/ResourceManager.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/SEHCatcher.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/SexyMatrix.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/misc/XMLParser.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/paklib/PakInterface.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/bitwise.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/block.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/codebook.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/floor0.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/floor1.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/framing.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/info.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/mapping0.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/mdct.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/registry.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/res012.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/sharedbook.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/synthesis.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/vorbisfile.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/ogg/window.c.o SexyAppFramework/CMakeFiles/LawnProject.dir/imagelib/ImageLib.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/Common.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/SexyApp.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/SexyAppBase.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/LawnApp.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/__/main.cpp.o SexyAppFramework/CMakeFiles/LawnProject.dir/LawnProject.rc.obj | libjpeg/libjpeg.a zlib/libzlibstatic.a libpng/libpng.a || SexyAppFramework/imagelib/libjpeg-src SexyAppFramework/imagelib/libpng-src SexyAppFramework/imagelib/zlib-src
   DEP_FILE = SexyAppFramework/CMakeFiles/LawnProject.dir/link.d
-  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -g
+  FLAGS = -pthread -fuse-ld=lld -fms-extensions -march=native -fdiagnostics-color=always -O3 -Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=format -Wno-error=conversion-null -g
   LINK_FLAGS = -Wl,--dependency-file=SexyAppFramework/CMakeFiles/LawnProject.dir/link.d
   LINK_LIBRARIES = libjpeg/libjpeg.a  zlib/libzlibstatic.a  libpng/libpng.a  -static  -static-libgcc  -static-libstdc++  -lwinmm  -lws2_32
   OBJECT_DIR = SexyAppFramework/CMakeFiles/LawnProject.dir

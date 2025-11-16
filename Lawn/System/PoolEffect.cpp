@@ -1,4 +1,5 @@
 #include "PoolEffect.h"
+#include <cstring>
 #include "../../LawnApp.h"
 #include "../../Resources.h"
 #include "../../GameConstants.h"
@@ -226,6 +227,7 @@ void PoolEffect::PoolEffectDraw(Sexy::Graphics* g, bool theIsNight)
         g->DrawTrianglesTex(IMAGE_POOL_SHADING, aVertArray[1], 150);
     }
 
+#ifdef _WIN32
     UpdateWaterEffect();
     D3DInterface* anInterface = ((DDImage*)g->mDestImage)->mDDInterface->mD3DInterface;
     anInterface->CheckDXError(anInterface->mD3DDevice->SetTextureStageState(0, D3DTEXTURESTAGESTATETYPE::D3DTSS_ADDRESSU, D3DTEXTUREADDRESS::D3DTADDRESS_WRAP), "DrawPool");
@@ -233,6 +235,10 @@ void PoolEffect::PoolEffectDraw(Sexy::Graphics* g, bool theIsNight)
     g->DrawTrianglesTex(mCausticImage, aVertArray[2], 150);
     anInterface->CheckDXError(anInterface->mD3DDevice->SetTextureStageState(0, D3DTEXTURESTAGESTATETYPE::D3DTSS_ADDRESSU, D3DTEXTUREADDRESS::D3DTADDRESS_CLAMP), "DrawPool");
     anInterface->CheckDXError(anInterface->mD3DDevice->SetTextureStageState(0, D3DTEXTURESTAGESTATETYPE::D3DTSS_ADDRESSV, D3DTEXTUREADDRESS::D3DTADDRESS_CLAMP), "DrawPool");
+#else
+    (void)g; // Suppress unused parameter warning
+    // Pool effects are not supported on non-Windows platforms
+#endif
 }
 
 void PoolEffect::PoolEffectUpdate()
