@@ -1,9 +1,12 @@
 #ifndef __SEXYAPPFRAMEWORK_COMMON_H__
 #define __SEXYAPPFRAMEWORK_COMMON_H__
 
+#ifdef _MSC_VER
 #pragma warning(disable:4786)
 #pragma warning(disable:4503)
+#endif
 
+#ifdef _WIN32
 #undef _WIN32_WINNT
 #undef WIN32_LEAN_AND_MEAN
 
@@ -11,6 +14,7 @@
 #define _WIN32_WINNT 0x0500
 #undef _UNICODE
 #undef UNICODE
+#endif
 
 #include <string>
 #include <vector>
@@ -20,10 +24,12 @@
 #include <algorithm>
 #include <cstdlib>
 
+#ifdef _WIN32
 #define NOMINMAX 1
 #include <windows.h>
 #include <shellapi.h> 
 #include <mmsystem.h>
+#endif
 #include "misc/ModVal.h"
 
 // fallback if NOMINMAX fails (somehow?)
@@ -31,7 +37,7 @@
 #undef max
 
 // Define unreachable()
-#ifdef MSVC
+#ifdef _MSC_VER
 #define unreachable std::unreachable
 #else
 #define unreachable __builtin_unreachable
@@ -43,7 +49,11 @@ typedef std::string			SexyString;
 
 #define sexystrncmp			strncmp
 #define sexystrcmp			strcmp
+#ifdef _WIN32
 #define sexystricmp			stricmp
+#else
+#define sexystricmp			strcasecmp
+#endif
 #define sexysscanf			sscanf
 #define sexyatoi			atoi
 #define sexystrcpy			strcpy
@@ -68,7 +78,11 @@ typedef unsigned char uchar;
 typedef unsigned short ushort;
 typedef unsigned int uint;
 typedef unsigned long ulong;
+#ifdef _MSC_VER
 typedef __int64 int64;
+#else
+typedef long long int64;
+#endif
 
 typedef std::map<std::string, std::string>		DefinesMap;
 typedef std::map<std::wstring, std::wstring>	WStringWStringMap;
@@ -81,7 +95,9 @@ namespace Sexy
 const ulong SEXY_RAND_MAX = 0x7FFFFFFF;
 
 extern bool			gDebug;
+#ifdef _WIN32
 extern HINSTANCE	gHInstance;
+#endif
 
 int					Rand();
 int					Rand(int range);
@@ -200,7 +216,15 @@ inline void			inlineTrim(std::string &theData, const std::string& theChars = " \
 	inlineLTrim(theData, theChars);
 }
 
-struct StringLessNoCase { bool operator()(const std::string &s1, const std::string &s2) const { return _stricmp(s1.c_str(),s2.c_str())<0; } };
+struct StringLessNoCase { 
+	bool operator()(const std::string &s1, const std::string &s2) const { 
+#ifdef _WIN32
+		return _stricmp(s1.c_str(),s2.c_str())<0; 
+#else
+		return strcasecmp(s1.c_str(),s2.c_str())<0;
+#endif
+	} 
+};
 
 }
 
