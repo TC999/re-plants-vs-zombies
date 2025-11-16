@@ -1,6 +1,7 @@
 #ifndef __ZENGARDEN_H__
 #define __ZENGARDEN_H__
 
+#include <cstdint>
 #include "../ConstEnums.h"
 
 #define ZEN_MAX_GRIDSIZE_X 8

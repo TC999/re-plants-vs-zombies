@@ -26,7 +26,7 @@ set(universal_cflags   "${CMAKE_C_FLAGS} ${universal_compiler_flags}")
 if(MSVC)
     set(warn_flags "")
 else()
-    set(warn_flags "-Wall -Wextra -Werror")
+    set(warn_flags "-Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=memset-elt-size")
 endif()
 
 set(CMAKE_CXX_FLAGS "${universal_cxxflags} ${warn_flags}")

@@ -127,7 +127,11 @@ int GetCurrentDaysSince2000()
 {
     __time64_t aNow = _time64(nullptr);
     tm aNowTM;
+#ifdef _WIN32
     _localtime64_s(&aNowTM, &aNow);
+#else
+    localtime_r((time_t*)&aNow, &aNowTM);
+#endif
 
     int dy = aNowTM.tm_year - 100;
     return dy * 365 + (dy - 1) / 400 - (dy - 1) / 100 + (dy - 1) / 4 + aNowTM.tm_yday + 1;

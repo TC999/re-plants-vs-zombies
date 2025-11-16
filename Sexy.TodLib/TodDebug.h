@@ -1,6 +1,8 @@
 #ifndef __TODDEBUG_H__
 #define __TODDEBUG_H__
 
+#include "../SexyAppFramework/Common.h"
+
 #define NOMINMAX 1
 #ifdef _WIN32
 #include <windows.h>

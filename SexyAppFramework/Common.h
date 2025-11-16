@@ -89,6 +89,28 @@ typedef struct _GUID {
     uint8_t  Data4[8];
 } GUID;
 
+// FILETIME structure
+typedef struct _FILETIME {
+    DWORD dwLowDateTime;
+    DWORD dwHighDateTime;
+} FILETIME;
+
+// WIN32_FIND_DATA structure
+typedef struct _WIN32_FIND_DATAA {
+    DWORD dwFileAttributes;
+    FILETIME ftCreationTime;
+    FILETIME ftLastAccessTime;
+    FILETIME ftLastWriteTime;
+    DWORD nFileSizeHigh;
+    DWORD nFileSizeLow;
+    DWORD dwReserved0;
+    DWORD dwReserved1;
+    char cFileName[260];
+    char cAlternateFileName[14];
+} WIN32_FIND_DATAA, *LPWIN32_FIND_DATA;
+
+typedef const char* LPCTSTR;
+
 // RECT structure  
 typedef struct tagRECT {
     LONG left;
