@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v5
       
       - name: Install cmake
-        uses: ssrobins/install-cmake@v1
+        run: choco install cmake
 
       - name: Install Ninja
         uses: seanmiddleditch/gha-setup-ninja@master
