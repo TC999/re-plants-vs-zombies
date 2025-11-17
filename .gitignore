@@ -415,4 +415,4 @@ tools/read-compiled/target
 *.sublime-workspace
 
 # Cmake
-cmake-build
+/cmake-build

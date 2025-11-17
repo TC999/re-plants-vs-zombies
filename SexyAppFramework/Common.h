@@ -77,8 +77,24 @@ typedef void* LPDIRECTDRAWPALETTE;
 typedef void* HBITMAP;
 typedef void* LPDDPIXELFORMAT;
 typedef long HRESULT;
-typedef void* _WIN32_FILE_ATTRIBUTE_DATA;
-typedef void* _GET_FILEEX_INFO_LEVELS;
+enum class _GET_FILEEX_INFO_LEVELS {
+    GetFileExInfoStandard = 0
+};
+
+// Define FILETIME structure (needed by _WIN32_FILE_ATTRIBUTE_DATA)
+struct FILETIME {
+    DWORD dwLowDateTime;
+    DWORD dwHighDateTime;
+};
+
+typedef FILETIME _FILETIME;
+
+struct _WIN32_FILE_ATTRIBUTE_DATA {
+    DWORD dwFileAttributes;
+    FILETIME ftCreationTime;
+    FILETIME ftLastAccessTime;
+    FILETIME ftLastWriteTime;
+};
 
 // DirectDraw structures
 struct DDSURFACEDESC {
@@ -120,6 +136,7 @@ union LARGE_INTEGER {
 #define MB_OK 0
 #define HKEY_CURRENT_USER ((HKEY)(uintptr_t)0x80000001)
 #define _cdecl
+#define __cdecl
 #define ANSI_CHARSET 0
 #define INVALID_HANDLE_VALUE ((HANDLE)(intptr_t)-1)
 #define PAGE_READWRITE 0x04
@@ -236,19 +253,16 @@ struct CRITICAL_SECTION {
     pthread_mutex_t mutex;
 };
 
-// Define FILETIME structure
-struct FILETIME {
-    DWORD dwLowDateTime;
-    DWORD dwHighDateTime;
-};
-
-typedef FILETIME _FILETIME;
-
 inline int CompareFileTime(const FILETIME* lpFileTime1, const FILETIME* lpFileTime2) {
     // Stub implementation - not used on Linux
     (void)lpFileTime1; (void)lpFileTime2;
     return 0;
 }
+
+// Provide a reasonable MAX_PATH for non-Windows builds
+#ifndef MAX_PATH
+#define MAX_PATH 260
+#endif
 
 // These will be defined by bass.h, but we declare them here for other uses
 // Note: bass.h will redefine these as DWORD, which is compatible

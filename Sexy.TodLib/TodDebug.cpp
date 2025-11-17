@@ -7,6 +7,8 @@
 
 using namespace Sexy;
 
+#ifdef _WIN32
+
 static char gLogFileName[MAX_PATH];
 static char gDebugDataFolder[MAX_PATH];
 
@@ -258,3 +260,227 @@ void TodAssertInitForApp()
 
 	SetUnhandledExceptionFilter(TodUnhandledExceptionFilter);
 }
+
+#else // POSIX / Linux implementations
+
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
+
+static char gLogFileName[MAX_PATH];
+static char gDebugDataFolder[MAX_PATH];
+
+inline void OutputDebugStringA(const char* s) { if (s) fputs(s, stderr); }
+inline void OutputDebugString(const char* s) { OutputDebugStringA(s); }
+
+void TodErrorMessageBox(const char* theMessage, const char* theTitle)
+{
+	TodTraceAndLog("%s.%s", theMessage ? theMessage : "", theTitle ? theTitle : "");
+	fprintf(stderr, "ERROR: %s - %s\n", theTitle ? theTitle : "", theMessage ? theMessage : "");
+}
+
+void TodTraceMemory()
+{
+}
+
+void* TodMalloc(int theSize)
+{
+	TOD_ASSERT(theSize > 0);
+	return malloc(theSize);
+}
+
+void TodFree(void* theBlock)
+{
+	if (theBlock != nullptr)
+	{
+		free(theBlock);
+	}
+}
+
+void TodAssertFailed(const char* theCondition, const char* theFile, int theLine, const char* theMsg, ...)
+{
+	char aFormattedMsg[1024] = {0};
+	va_list argList;
+	va_start(argList, theMsg);
+	TodVsnprintf(aFormattedMsg, sizeof(aFormattedMsg), theMsg, argList);
+	va_end(argList);
+
+	char aBuffer[1024];
+	if (theCondition && *theCondition)
+	{
+		TodSnprintf(aBuffer, sizeof(aBuffer), "\n%s(%d)\nassertion failed: '%s'\n%s\n", theFile, theLine, theCondition, aFormattedMsg);
+	}
+	else
+	{
+		TodSnprintf(aBuffer, sizeof(aBuffer), "\n%s(%d)\nassertion failed: %s\n", theFile, theLine, aFormattedMsg);
+	}
+	TodTrace("%s", aBuffer);
+	abort();
+}
+
+void TodLog(const char* theFormat, ...)
+{
+	char aButter[1024];
+	va_list argList;
+	va_start(argList, theFormat);
+	int aCount = TodVsnprintf(aButter, sizeof(aButter), theFormat, argList);
+	va_end(argList);
+
+	if (aCount <= 0) return;
+	if (aButter[aCount - 1] != '\n')
+	{
+		if (aCount + 1 < (int)sizeof(aButter))
+		{
+			aButter[aCount] = '\n';
+			aButter[aCount + 1] = '\0';
+		}
+		else
+		{
+			aButter[aCount - 1] = '\n';
+		}
+	}
+
+	TodLogString(aButter);
+}
+
+void TodLogString(const char* theMsg)
+{
+	FILE* f = fopen(gLogFileName[0] ? gLogFileName : "log.txt", "a");
+	if (f == nullptr)
+	{
+		OutputDebugString("Failed to open log file\n");
+		return;
+	}
+
+	fwrite(theMsg, strlen(theMsg), 1, f);
+	fclose(f);
+}
+
+void TodTrace(const char* theFormat, ...)
+{
+	char aButter[1024];
+	va_list argList;
+	va_start(argList, theFormat);
+	int aCount = TodVsnprintf(aButter, sizeof(aButter), theFormat, argList);
+	va_end(argList);
+
+	if (aCount <= 0) return;
+	if (aButter[aCount - 1] != '\n')
+	{
+		if (aCount + 1 < (int)sizeof(aButter))
+		{
+			aButter[aCount] = '\n';
+			aButter[aCount + 1] = '\0';
+		}
+		else
+		{
+			aButter[aCount - 1] = '\n';
+		}
+	}
+	OutputDebugStringA(aButter);
+}
+
+void TodHesitationTrace(...)
+{
+}
+
+void TodTraceAndLog(const char* theFormat, ...)
+{
+	char aButter[1024];
+	va_list argList;
+	va_start(argList, theFormat);
+	int aCount = TodVsnprintf(aButter, sizeof(aButter), theFormat, argList);
+	va_end(argList);
+
+	if (aCount <= 0) return;
+	if (aButter[aCount - 1] != '\n')
+	{
+		if (aCount + 1 < (int)sizeof(aButter))
+		{
+			aButter[aCount] = '\n';
+			aButter[aCount + 1] = '\0';
+		}
+		else
+		{
+			aButter[aCount - 1] = '\n';
+		}
+	}
+
+	OutputDebugStringA(aButter);
+	TodLogString(aButter);
+}
+
+void TodTraceWithoutSpamming(const char* theFormat, ...)
+{
+	static time_t gLastTraceTime = 0;
+	time_t aTime = time(nullptr);
+	if (aTime < gLastTraceTime)
+	{
+		return;
+	}
+
+	gLastTraceTime = aTime;
+	char aButter[1024];
+	va_list argList;
+	va_start(argList, theFormat);
+	int aCount = TodVsnprintf(aButter, sizeof(aButter), theFormat, argList);
+	va_end(argList);
+
+	if (aCount <= 0) return;
+	if (aButter[aCount - 1] != '\n')
+	{
+		if (aCount + 1 < (int)sizeof(aButter))
+		{
+			aButter[aCount] = '\n';
+			aButter[aCount + 1] = '\0';
+		}
+		else
+		{
+			aButter[aCount - 1] = '\n';
+		}
+	}
+
+	OutputDebugStringA(aButter);
+}
+
+void TodReportError(void* exceptioninfo, const char* theMessage)
+{
+	(void)theMessage;
+	Sexy::SEHCatcher::UnhandledExceptionFilter(exceptioninfo);
+}
+
+long TodUnhandledExceptionFilter(void* exceptioninfo)
+{
+	if (gInAssert)
+	{
+		TodLog("Exception during exception processing");
+	}
+	else
+	{
+		gInAssert = true;
+		TodLog("\nUnhandled Exception");
+		TodReportError(exceptioninfo, "Unhandled Exception");
+		gInAssert = false;
+	}
+
+	return 1;
+}
+
+void TodAssertInitForApp()
+{
+	// Minimal init for POSIX: place log in current directory
+	snprintf(gDebugDataFolder, sizeof(gDebugDataFolder), "%s", "./");
+	snprintf(gLogFileName, sizeof(gLogFileName), "%slog.txt", gDebugDataFolder);
+
+	TOD_ASSERT(strlen(gLogFileName) < MAX_PATH);
+
+	time_t aclock = time(nullptr);
+	struct tm lt;
+	localtime_r(&aclock, &lt);
+	char timestr[64];
+	asctime_r(&lt, timestr);
+	TodLog("Started %s\n", timestr);
+}
+
+#endif // _WIN32
