@@ -17,3 +17,17 @@ jobs:
         
       - name: build
         run: cmake --build cmake-build
+
+  build-1:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: install dependencies
+        run: sudo apt-get install -y cmake ninja-build lld
+
+      - name: configure && build
+        run: |
+          mkdir build && cd build
+          cmake ..
+          make -j$(nproc)
