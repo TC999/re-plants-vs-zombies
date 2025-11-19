@@ -26,7 +26,7 @@ set(universal_cflags   "${CMAKE_C_FLAGS} ${universal_compiler_flags}")
 if(MSVC)
     set(warn_flags "")
 else()
-    set(warn_flags "-Wall -Wextra")
+    set(warn_flags "-Wall -Wextra -Werror -Wno-error=array-bounds -Wno-error=class-memaccess -Wno-error=memset-elt-size -Wno-error=maybe-uninitialized -Wno-error=type-limits -Wno-error=strict-aliasing -Wno-error=pointer-arith -Wno-error=conversion-null -Wno-error=format")
 endif()
 
 set(CMAKE_CXX_FLAGS "${universal_cxxflags} ${warn_flags}")
@@ -34,8 +34,10 @@ set(CMAKE_C_FLAGS   "${universal_cflags} ${warn_flags}")
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
+if(WIN32)
 set(CMAKE_RC_COMPILER_INIT windres)
 ENABLE_LANGUAGE(RC)
+endif()
 
 ################################################################################
 # Nuget packages function stub.

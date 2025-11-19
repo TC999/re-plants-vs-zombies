@@ -1,7 +1,7 @@
 #ifndef __DATAARRAY_H__
 #define __DATAARRAY_H__
 
-#include <new.h>
+#include <new>
 #include <string.h>
 #include "TodDebug.h"
 #include "TodCommon.h"
@@ -35,7 +35,7 @@ public:
 	const char*				mName;
 
 public:
-	DataArray<T>()
+	DataArray()
 	{
 		mBlock = nullptr;
 		mMaxUsedCount = 0U;
@@ -46,7 +46,7 @@ public:
 		mName = nullptr;
 	}
 
-	~DataArray<T>()
+	~DataArray()
 	{
 		DataArrayDispose();
 	}

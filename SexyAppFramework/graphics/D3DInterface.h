@@ -4,7 +4,9 @@
 #include "Common.h"
 #include "MemoryImage.h"
 #include "misc/SexyMatrix.h"
+#ifdef _WIN32
 #include <d3d.h>
+#endif
 
 
 namespace Sexy

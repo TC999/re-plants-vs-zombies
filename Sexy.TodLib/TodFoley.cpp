@@ -131,13 +131,22 @@ FoleyTypeData::FoleyTypeData()
 int TodDSoundInstance::GetSoundPosition()
 {
 	unsigned long dwCurrentPlayerCursor;
+#ifdef _WIN32
 	mSoundBuffer->GetCurrentPosition(&dwCurrentPlayerCursor, nullptr);
 	return dwCurrentPlayerCursor;
+#else
+	(void)dwCurrentPlayerCursor;
+	return 0;
+#endif
 }
 
 void TodDSoundInstance::SetSoundPosition(int thePosition)
 {
+#ifdef _WIN32
 	mSoundBuffer->SetCurrentPosition(thePosition);
+#else
+	(void)thePosition;
+#endif
 }
 
 void TodFoleyInitialize(FoleyParams* theFoleyParamArray, int theFoleyParamArraySize)

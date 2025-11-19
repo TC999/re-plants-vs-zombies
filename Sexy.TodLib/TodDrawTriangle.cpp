@@ -1,6 +1,8 @@
 // This file is included by EffectSystem.cpp and should not be built directly by the project.
 
+#ifdef _MSC_VER
 #pragma warning(disable:4101)
+#endif
 
 #if (TRI0==0) 
 #define PTYPE unsigned long
