@@ -118,4 +118,6 @@ public:
 extern SEHCatcher gSEHCatcher;
 }
 
+#endif // _WIN32
+
 #endif // __SEHCATCHER_H__
