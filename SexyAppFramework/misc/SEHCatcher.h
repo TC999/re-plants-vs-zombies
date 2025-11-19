@@ -118,4 +118,4 @@ public:
 extern SEHCatcher gSEHCatcher;
 }
 
-#endif
+#endif // __SEHCATCHER_H__
