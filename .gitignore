@@ -414,3 +414,7 @@ tools/res-bak/
 tools/run/
 tools/read-compiled/target
 *.sublime-workspace
+
+# cmake
+/cmake-build
+/build
