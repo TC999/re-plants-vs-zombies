@@ -583,13 +583,13 @@ bool DefinitionReadCompiledFile(const SexyString& theCompiledFilePath, DefMap* t
     p_fclose(pFile);  // 关闭资源文件流并释放 pFile 占用的内存
     if (aReadCompressedFailed) { // 判断是否读取成功
         TodTrace(_S("Failed to read compiled file: %s\n"), theCompiledFilePath.c_str());
-        free(aCompressedBuffer);
+        delete[] (char *)aCompressedBuffer;
         return false;
     }
 
     size_t aUncompressedSize;
     void* aUncompressedBuffer = DefinitionUncompressCompiledBuffer(aCompressedBuffer, aCompressedSize, aUncompressedSize, theCompiledFilePath);
-    delete[] (char *)aCompressedBuffer;
+        delete[] (char *)aCompressedBuffer; // Free the compressed buffer
     if (!aUncompressedBuffer) return false;
     
     uint aDefHash = DefinitionCalcHash(theDefMap);  // 计算 CRC 校验值，后将用于检测数据的完整性

@@ -30,6 +30,17 @@
 #include <unistd.h>
 #endif
 
+#ifndef _WIN32
+#include <wctype.h>
+#include <strings.h>
+#include <climits>
+#include <cstring>
+#include <unistd.h>
+#include <cstdarg>
+#include <alloca.h>
+#endif
+
+#ifdef _WIN32
 #define NOMINMAX 1
 #ifdef _WIN32
 #include <windows.h>
@@ -325,7 +336,9 @@ namespace Sexy
 const ulong SEXY_RAND_MAX = 0x7FFFFFFF;
 
 extern bool			gDebug;
+#ifdef _WIN32
 extern HINSTANCE	gHInstance;
+#endif
 
 // Platform-independent GetTickCount
 #ifndef _WIN32

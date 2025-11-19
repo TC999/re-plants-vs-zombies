@@ -1,3 +1,5 @@
+// Only compile full SEHCatcher implementation on Windows
+#ifdef _WIN32
 #include "SEHCatcher.h"
 #include "SexyAppBase.h"
 #include <fstream>
@@ -94,10 +96,10 @@ long __stdcall SEHCatcher::UnhandledExceptionFilter(LPEXCEPTION_POINTERS lpExcep
 		mApp->SEHOccured(); 
 
 	DoHandleDebugEvent(lpExceptPtr);
-	
+    
 	if (!mDebugError)
 		SetErrorMode(SEM_NOGPFAULTERRORBOX);
-	
+    
 	return EXCEPTION_CONTINUE_SEARCH;   
 }
 
@@ -145,7 +147,7 @@ bool SEHCatcher::LoadImageHelp()
 	char filepath[MAX_PATH], *lastdir, *pPath;
 	DWORD filepathlen = GetModuleFileNameA ( NULL, filepath, sizeof(filepath));
 	(void)filepathlen;
-		
+        
 	lastdir = strrchr (filepath, '/');
 	if (lastdir == NULL) lastdir = strrchr (filepath, '\\');
 	if (lastdir != NULL) lastdir[0] = '\0';
@@ -166,6 +168,7 @@ void SEHCatcher::UnloadImageHelp()
 		FreeLibrary(mImageHelpLib);
 }
 
+#endif // _WIN32
 static bool StrToLongHex(const std::string& aString, DWORD* theValue)
 {
 	*theValue = 0;

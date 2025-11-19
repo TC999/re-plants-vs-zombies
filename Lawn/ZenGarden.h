@@ -3,6 +3,10 @@
 
 #include <cstdint>
 #include "../ConstEnums.h"
+#include <cstdint>
+#ifdef _MSC_VER
+#include <corecrt.h>
+#endif
 
 #define ZEN_MAX_GRIDSIZE_X 8
 #define ZEN_MAX_GRIDSIZE_Y 4

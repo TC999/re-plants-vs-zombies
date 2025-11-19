@@ -1,6 +1,7 @@
 #ifndef __BASSLOADER_H__
 #define __BASSLOADER_H__
 
+#ifdef _WIN32
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX 1
 #ifdef _WIN32

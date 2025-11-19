@@ -1,6 +1,7 @@
 #ifndef __SOUNDINSTANCE_H__
 #define __SOUNDINSTANCE_H__
 
+#ifdef _WIN32
 #define NOMINMAX 1
 #ifdef _WIN32
 #include <windows.h>
