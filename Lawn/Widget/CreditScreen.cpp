@@ -1428,7 +1428,11 @@ void CreditScreen::TurnOffTongues(Reanimation* theReanim, int aParentTrack)
     {
         ReanimatorTrackInstance* aTrackInstance = &theReanim->mTrackInstances[aTrackIndex];
         if (theReanim->mReanimationType == ReanimationType::REANIM_ZOMBIE_CREDITS_DANCE &&
+#ifdef _WIN32
             aParentTrack % 4 != 1 && stricmp(theReanim->mDefinition->mTracks.tracks[aTrackIndex].mName, "anim_tongue") == 0)
+#else
+            aParentTrack % 4 != 1 && strcasecmp(theReanim->mDefinition->mTracks.tracks[aTrackIndex].mName, "anim_tongue") == 0)
+#endif
         {
             aTrackInstance->mRenderGroup = RENDER_GROUP_HIDDEN;
         }
@@ -1444,10 +1448,15 @@ void CreditScreen::TurnOffTongues(Reanimation* theReanim, int aParentTrack)
 //0x437FC0
 void TodsHackyUnprotectedPerfTimer::SetStartTime(int theTimeMillisecondsAgo)
 {
+#ifdef _WIN32
     QueryPerformanceCounter(&mStart);
     LARGE_INTEGER aFreq;
     QueryPerformanceFrequency(&aFreq);
     mStart.QuadPart += theTimeMillisecondsAgo * aFreq.QuadPart / -1000;
+#else
+    (void)theTimeMillisecondsAgo; // Suppress unused parameter warning
+    // Performance counter not available on non-Windows platforms
+#endif
 }
 
 //0x438010

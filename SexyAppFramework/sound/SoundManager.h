@@ -3,6 +3,7 @@
 
 #ifdef _WIN32
 #define NOMINMAX 1
+#ifdef _WIN32
 #include <windows.h>
 #endif
 #include "Common.h"

@@ -1,9 +1,19 @@
 #ifndef __TODDEBUG_H__
 #define __TODDEBUG_H__
 
-#ifdef _WIN32
+#include "../SexyAppFramework/Common.h"
+
 #define NOMINMAX 1
+#ifdef _WIN32
 #include <windows.h>
+#else
+// Platform-independent alternatives for debugging
+inline bool IsDebuggerPresent() { return false; }
+#ifdef __GNUC__
+#define __debugbreak() __builtin_trap()
+#else
+inline void __debugbreak() {}
+#endif
 #endif
 
 class TodHesitationBracket

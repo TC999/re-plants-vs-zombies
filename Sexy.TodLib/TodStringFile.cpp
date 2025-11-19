@@ -1,6 +1,7 @@
 #include "TodDebug.h"
 #include "TodCommon.h"
 #include "TodStringFile.h"
+#include <cstring>
 #include "paklib/PakInterface.h"
 #include "graphics/Font.h"
 

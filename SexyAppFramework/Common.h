@@ -23,6 +23,12 @@
 #include <list>
 #include <algorithm>
 #include <cstdlib>
+#ifndef _WIN32
+#include <time.h>
+#include <strings.h>
+#include <cwctype>
+#include <unistd.h>
+#endif
 
 #ifndef _WIN32
 #include <wctype.h>
@@ -36,245 +42,225 @@
 
 #ifdef _WIN32
 #define NOMINMAX 1
+#ifdef _WIN32
 #include <windows.h>
 #include <shellapi.h> 
 #include <mmsystem.h>
 #else
-// Define Windows types for non-Windows platforms
-#include <cstdint>
-#include <pthread.h>
-#include <time.h>
-
-typedef uint8_t BYTE;
-typedef uint16_t WORD;
-typedef uint32_t DWORD;
-typedef int32_t LONG;
-typedef uint32_t UINT;
-typedef int64_t LONGLONG;
-typedef uint64_t QWORD;
-typedef long LRESULT;
-typedef void* HANDLE;
-typedef void* HMODULE;
+// Platform-independent definitions for types used by the codebase
+#include <stdint.h>
 typedef void* HINSTANCE;
 typedef void* HWND;
-typedef void* HCURSOR;
-typedef void* HKEY;
 typedef void* HICON;
-typedef void* LPDIRECTSOUNDBUFFER;
-typedef void* LPDIRECTSOUND;
-typedef void* LPGUID;
-typedef void* LPVOID;
+typedef void* HMODULE;
+typedef void* HANDLE;
+typedef void* HKEY;
+typedef void* HCURSOR;
 typedef void* HFONT;
-typedef const char* LPCTSTR;
-typedef void* LPWIN32_FIND_DATA;
-typedef void* LPDIRECTDRAWSURFACE;
-typedef void* LPDIRECTDRAWSURFACE7;
-typedef void* LPDIRECTDRAW;
-typedef void* LPDIRECTDRAW7;
-typedef void* LPDIRECT3D7;
-typedef void* LPDIRECT3DDEVICE7;
-typedef void* LPDIRECTDRAWPALETTE;
-typedef void* HBITMAP;
-typedef void* LPDDPIXELFORMAT;
+typedef uint32_t UINT;
+typedef long LONG;
+typedef intptr_t WPARAM;
+typedef intptr_t LPARAM;
+typedef intptr_t LRESULT;
+typedef int64_t __time64_t;
+#ifndef DWORD
+typedef uint32_t DWORD;
+#endif
+#ifndef BOOL
+typedef int BOOL;
+#endif
+#ifndef BYTE
+typedef unsigned char BYTE;
+#endif
+#ifndef WORD
+typedef unsigned short WORD;
+#endif
+typedef float FLOAT;
+typedef FLOAT *PFLOAT;
+typedef BOOL *PBOOL;
+typedef BOOL *LPBOOL;
+typedef BYTE *PBYTE;
+typedef BYTE *LPBYTE;
+typedef int *PINT;
+typedef int *LPINT;
+typedef WORD *PWORD;
+typedef WORD *LPWORD;
+typedef long *LPLONG;
+typedef DWORD *PDWORD;
+typedef DWORD *LPDWORD;
+typedef void *LPVOID;
+typedef const void *LPCVOID;
+typedef void *LPDIRECTSOUNDBUFFER;
+typedef void *LPEXCEPTION_POINTERS;
+typedef void *LPDIRECT3DDEVICE7;
+typedef void *LPDIRECTDRAW7;
+typedef void *LPDIRECTDRAWSURFACE7;
+typedef void *LPDIRECT3D7;
+typedef void *LPDDPIXELFORMAT;
+typedef void *LPDIRECTDRAWSURFACE;
+typedef void *LPDIRECTDRAW;
+typedef void *LPDIRECTDRAWPALETTE;
+typedef void *HBITMAP;
 typedef long HRESULT;
-enum class _GET_FILEEX_INFO_LEVELS {
-    GetFileExInfoStandard = 0
-};
+typedef struct {
+    int unused;
+} D3DVIEWPORT7;
+typedef struct {
+    int unused;
+} DDPIXELFORMAT;
+typedef struct {
+    int unused;
+} DDSURFACEDESC;
+typedef struct {
+    int unused;
+} DDSURFACEDESC2;
 
-// Define FILETIME structure (needed by _WIN32_FILE_ATTRIBUTE_DATA)
-struct FILETIME {
+// GUID structure
+typedef struct _GUID {
+    uint32_t Data1;
+    uint16_t Data2;
+    uint16_t Data3;
+    uint8_t  Data4[8];
+} GUID;
+
+// FILETIME structure
+typedef struct _FILETIME {
     DWORD dwLowDateTime;
     DWORD dwHighDateTime;
-};
+} FILETIME;
 
-typedef FILETIME _FILETIME;
-
-struct _WIN32_FILE_ATTRIBUTE_DATA {
+// WIN32_FIND_DATA structure
+typedef struct _WIN32_FIND_DATAA {
     DWORD dwFileAttributes;
     FILETIME ftCreationTime;
     FILETIME ftLastAccessTime;
     FILETIME ftLastWriteTime;
-};
+    DWORD nFileSizeHigh;
+    DWORD nFileSizeLow;
+    DWORD dwReserved0;
+    DWORD dwReserved1;
+    char cFileName[260];
+    char cAlternateFileName[14];
+} WIN32_FIND_DATAA, *LPWIN32_FIND_DATA;
 
-// DirectDraw structures
-struct DDSURFACEDESC {
-    char dummy[sizeof(void*)];
-};
+typedef const char* LPCTSTR;
 
-struct DDSURFACEDESC2 {
-    char dummy[sizeof(void*)];
-};
-
-struct DDPIXELFORMAT {
-    char dummy[sizeof(void*)];
-};
-
-// Direct3D types
-typedef int D3DTEXTURESTAGESTATETYPE;
-typedef int D3DTEXTUREADDRESS;
-struct D3DVIEWPORT7 {
-    char dummy[sizeof(void*)];
-};
-typedef int BOOL;
-typedef uintptr_t WPARAM;
-typedef intptr_t LPARAM;
-typedef int64_t __time64_t;
-
-// LARGE_INTEGER structure
-union LARGE_INTEGER {
-    struct {
-        DWORD LowPart;
-        LONG HighPart;
-    };
-    LONGLONG QuadPart;
-};
-
-#define WINAPI
-#define CALLBACK
-#define TRUE 1
-#define FALSE 0
-#define MB_OK 0
-#define HKEY_CURRENT_USER ((HKEY)(uintptr_t)0x80000001)
-#define _cdecl
-#define __cdecl
-#define ANSI_CHARSET 0
-#define INVALID_HANDLE_VALUE ((HANDLE)(intptr_t)-1)
-#define PAGE_READWRITE 0x04
-#define FILE_MAP_ALL_ACCESS 0xF001F
-
-// Windows API functions for Linux
-inline DWORD GetTickCount() {
-    struct timespec ts;
-    clock_gettime(CLOCK_MONOTONIC, &ts);
-    return (DWORD)(ts.tv_sec * 1000 + ts.tv_nsec / 1000000);
-}
-
-inline __time64_t _time64(__time64_t* timer) {
-    __time64_t t = time(nullptr);
-    if (timer) *timer = t;
-    return t;
-}
-
-inline int _localtime64_s(struct tm* result, const __time64_t* time) {
-    time_t t = *time;
-    struct tm* tmp = localtime_r(&t, result);
-    return (tmp == nullptr) ? -1 : 0;
-}
-
-#define stricmp strcasecmp
-#define _stricmp strcasecmp
-#define strnicmp strncasecmp
-#define _alloca alloca
-#define _vsnprintf vsnprintf
-#define __stdcall
-
-// Windows API function stubs for Linux
-inline DWORD GetCurrentProcessId() {
-    return (DWORD)getpid();
-}
-
-inline BOOL QueryPerformanceCounter(LARGE_INTEGER* lpPerformanceCount) {
-    struct timespec ts;
-    clock_gettime(CLOCK_MONOTONIC, &ts);
-    lpPerformanceCount->QuadPart = (int64_t)ts.tv_sec * 1000000000LL + ts.tv_nsec;
-    return TRUE;
-}
-
-inline BOOL QueryPerformanceFrequency(LARGE_INTEGER* lpFrequency) {
-    lpFrequency->QuadPart = 1000000000LL; // nanoseconds
-    return TRUE;
-}
-
-inline HANDLE CreateFileMappingA(HANDLE hFile, void* lpAttributes, DWORD flProtect, DWORD dwMaximumSizeHigh, DWORD dwMaximumSizeLow, const char* lpName) {
-    // Stub implementation - not used on Linux
-    (void)hFile; (void)lpAttributes; (void)flProtect; (void)dwMaximumSizeHigh; (void)dwMaximumSizeLow; (void)lpName;
-    return nullptr;
-}
-
-inline LPVOID MapViewOfFile(HANDLE hFileMappingObject, DWORD dwDesiredAccess, DWORD dwFileOffsetHigh, DWORD dwFileOffsetLow, size_t dwNumberOfBytesToMap) {
-    // Stub implementation - not used on Linux
-    (void)hFileMappingObject; (void)dwDesiredAccess; (void)dwFileOffsetHigh; (void)dwFileOffsetLow; (void)dwNumberOfBytesToMap;
-    return nullptr;
-}
-
-inline BOOL FindNextFile(HANDLE hFindFile, LPWIN32_FIND_DATA lpFindFileData) {
-    // Stub implementation - not used on Linux
-    (void)hFindFile; (void)lpFindFileData;
-    return FALSE;
-}
-
-inline BOOL FindClose(HANDLE hFindFile) {
-    // Stub implementation - not used on Linux
-    (void)hFindFile;
-    return FALSE;
-}
-
-inline HANDLE FindFirstFile(LPCTSTR lpFileName, LPWIN32_FIND_DATA lpFindFileData) {
-    // Stub implementation - not used on Linux
-    (void)lpFileName; (void)lpFindFileData;
-    return INVALID_HANDLE_VALUE;
-}
-
-inline BOOL GetFileAttributesEx(LPCTSTR lpFileName, _GET_FILEEX_INFO_LEVELS fInfoLevelId, void* lpFileInformation) {
-    // Stub implementation - not used on Linux
-    (void)lpFileName; (void)fInfoLevelId; (void)lpFileInformation;
-    return FALSE;
-}
-
-// Define RECT structure
-struct RECT {
+// RECT structure  
+typedef struct tagRECT {
     LONG left;
     LONG top;
     LONG right;
     LONG bottom;
-};
+} RECT;
 
-// Define MSG structure
-struct MSG {
-    HWND hwnd;
-    UINT message;
+// Windows message structure
+typedef struct tagMSG {
+    HWND   hwnd;
+    UINT   message;
     WPARAM wParam;
     LPARAM lParam;
-    DWORD time;
-    int pt_x;
-    int pt_y;
-};
+    DWORD  time;
+    int    pt_x;
+    int    pt_y;
+} MSG;
 
-// Define GUID structure
-struct GUID {
-    uint32_t Data1;
-    uint16_t Data2;
-    uint16_t Data3;
-    uint8_t Data4[8];
-};
+// File attribute data
+typedef struct _WIN32_FILE_ATTRIBUTE_DATA {
+    DWORD dwFileAttributes;
+    FILETIME ftCreationTime;
+    FILETIME ftLastAccessTime;
+    FILETIME ftLastWriteTime;
+    DWORD nFileSizeHigh;
+    DWORD nFileSizeLow;
+} WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA;
 
-// Define CRITICAL_SECTION
-struct CRITICAL_SECTION {
-    pthread_mutex_t mutex;
-};
+typedef enum _GET_FILEEX_INFO_LEVELS {
+    GetFileExInfoStandard = 0
+} GET_FILEEX_INFO_LEVELS;
 
-inline int CompareFileTime(const FILETIME* lpFileTime1, const FILETIME* lpFileTime2) {
-    // Stub implementation - not used on Linux
+// Critical section
+typedef struct {
+    void* unused[6];
+} CRITICAL_SECTION;
+
+// Large integer type
+typedef struct {
+    DWORD LowPart;
+    long HighPart;
+#ifdef _WIN32
+    int64_t QuadPart;
+#endif
+} LARGE_INTEGER;
+
+// Calling conventions
+#define _cdecl
+#define __cdecl
+#define __stdcall
+#define CALLBACK
+#define WINAPI
+
+// Registry constants
+#define HKEY_CURRENT_USER ((HKEY)0x80000001)
+
+// MessageBox constants
+#define MB_OK 0x00000000L
+
+// Character set constants
+#define ANSI_CHARSET 0
+
+// Time function compatibility
+#define _time64(x) time(x)
+
+#ifndef FALSE
+#define FALSE 0
+#endif
+
+#ifndef TRUE
+#define TRUE 1
+#endif
+
+// File mapping constants and functions
+#define INVALID_HANDLE_VALUE ((HANDLE)-1)
+#define PAGE_READWRITE 0x04
+#define FILE_MAP_ALL_ACCESS 0xF001F
+
+// Stub implementations for file mapping
+inline DWORD GetCurrentProcessId() { return (DWORD)getpid(); }
+inline HANDLE CreateFileMappingA(HANDLE hFile, void* lpAttributes, DWORD flProtect, 
+                                  DWORD dwMaximumSizeHigh, DWORD dwMaximumSizeLow, const char* lpName) {
+    (void)hFile; (void)lpAttributes; (void)flProtect; 
+    (void)dwMaximumSizeHigh; (void)dwMaximumSizeLow; (void)lpName;
+    return nullptr;
+}
+inline void* MapViewOfFile(HANDLE hFileMappingObject, DWORD dwDesiredAccess, 
+                            DWORD dwFileOffsetHigh, DWORD dwFileOffsetLow, size_t dwNumberOfBytesToMap) {
+    (void)hFileMappingObject; (void)dwDesiredAccess; 
+    (void)dwFileOffsetHigh; (void)dwFileOffsetLow; (void)dwNumberOfBytesToMap;
+    return nullptr;
+}
+inline HANDLE FindFirstFile(const char* lpFileName, LPWIN32_FIND_DATA lpFindFileData) {
+    (void)lpFileName; (void)lpFindFileData;
+    return INVALID_HANDLE_VALUE;
+}
+inline BOOL FindNextFile(HANDLE hFindFile, LPWIN32_FIND_DATA lpFindFileData) {
+    (void)hFindFile; (void)lpFindFileData;
+    return FALSE;
+}
+inline BOOL FindClose(HANDLE hFindFile) {
+    (void)hFindFile;
+    return TRUE;
+}
+inline BOOL GetFileAttributesEx(const char* lpFileName, GET_FILEEX_INFO_LEVELS fInfoLevelId, LPVOID lpFileInformation) {
+    (void)lpFileName; (void)fInfoLevelId; (void)lpFileInformation;
+    return FALSE;
+}
+inline LONG CompareFileTime(const FILETIME* lpFileTime1, const FILETIME* lpFileTime2) {
     (void)lpFileTime1; (void)lpFileTime2;
     return 0;
 }
 
-// Provide a reasonable MAX_PATH for non-Windows builds
-#ifndef MAX_PATH
-#define MAX_PATH 260
 #endif
 
-// These will be defined by bass.h, but we declare them here for other uses
-// Note: bass.h will redefine these as DWORD, which is compatible
-#ifndef BASS_H
-typedef DWORD HFX;
-typedef DWORD HSYNC;
-typedef DWORD HMUSIC;
-typedef DWORD HSTREAM;
-typedef DWORD HPLUGIN;
-typedef DWORD HSAMPLE;
-#endif
-#endif
 #include "misc/ModVal.h"
 
 // fallback if NOMINMAX fails (somehow?)
@@ -296,8 +282,18 @@ typedef std::string			SexyString;
 #define sexystrcmp			strcmp
 #ifdef _WIN32
 #define sexystricmp			stricmp
+#define _stricmp			stricmp
+#define stricmp				_stricmp
+#define strnicmp			_strnicmp
+#define _vsnprintf			vsnprintf
+#define _alloca				alloca
 #else
 #define sexystricmp			strcasecmp
+#define _stricmp			strcasecmp
+#define stricmp				strcasecmp
+#define strnicmp			strncasecmp
+#define _vsnprintf			vsnprintf
+#define _alloca				alloca
 #endif
 #define sexysscanf			sscanf
 #define sexyatoi			atoi
@@ -323,7 +319,7 @@ typedef unsigned char uchar;
 typedef unsigned short ushort;
 typedef unsigned int uint;
 typedef unsigned long ulong;
-#ifdef _MSC_VER
+#ifdef _WIN32
 typedef __int64 int64;
 #else
 typedef long long int64;
@@ -342,6 +338,15 @@ const ulong SEXY_RAND_MAX = 0x7FFFFFFF;
 extern bool			gDebug;
 #ifdef _WIN32
 extern HINSTANCE	gHInstance;
+#endif
+
+// Platform-independent GetTickCount
+#ifndef _WIN32
+inline DWORD GetTickCount() {
+	struct timespec ts;
+	clock_gettime(CLOCK_MONOTONIC, &ts);
+	return (DWORD)((ts.tv_sec * 1000) + (ts.tv_nsec / 1000000));
+}
 #endif
 
 int					Rand();
@@ -466,7 +471,7 @@ struct StringLessNoCase {
 #ifdef _WIN32
 		return _stricmp(s1.c_str(),s2.c_str())<0; 
 #else
-		return strcasecmp(s1.c_str(),s2.c_str())<0;
+		return strcasecmp(s1.c_str(),s2.c_str())<0; 
 #endif
 	} 
 };

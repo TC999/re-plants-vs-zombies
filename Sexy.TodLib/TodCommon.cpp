@@ -2,6 +2,7 @@
 #include "TodList.h"
 #include "TodDebug.h"
 #include "TodCommon.h"
+#include <cstdarg>
 #include "../LawnApp.h"
 #include "EffectSystem.h"
 #include "../Resources.h"

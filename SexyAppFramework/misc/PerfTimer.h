@@ -24,10 +24,10 @@ public:
 
 	double GetDuration();
 
-#ifdef _MSC_VER
+#ifdef _WIN32
 	static __int64 GetCPUSpeed(); // in Hz
 #else
-	static int64_t GetCPUSpeed(); // in Hz
+	static long long GetCPUSpeed(); // in Hz
 #endif
 	static int GetCPUSpeedMHz(); 
 };

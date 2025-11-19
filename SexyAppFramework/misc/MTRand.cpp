@@ -36,7 +36,9 @@ email: m-mat @ math.sci.hiroshima-u.ac.jp (remove space)
 */
 
 #define NOMINMAX 1
+#ifdef _WIN32
 #include <windows.h> 
+#endif
 #include "MTRand.h"
 #include "Debug.h"
 #include <stdio.h>

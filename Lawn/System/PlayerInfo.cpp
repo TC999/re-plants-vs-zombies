@@ -3,6 +3,7 @@
 #include "../LawnCommon.h"
 #include "../Widget/ChallengeScreen.h"
 #include "../../Sexy.TodLib/TodDebug.h"
+#include <cstring>
 #include "../../Sexy.TodLib/TodCommon.h"
 #include "misc/Buffer.h"
 #include "../../SexyAppFramework/SexyAppBase.h"

@@ -1,4 +1,5 @@
 #include "PoolEffect.h"
+#include <cstring>
 #include "../../LawnApp.h"
 #include "../../Resources.h"
 #include "../../GameConstants.h"
@@ -226,6 +227,7 @@ void PoolEffect::PoolEffectDraw(Sexy::Graphics* g, bool theIsNight)
         g->DrawTrianglesTex(IMAGE_POOL_SHADING, aVertArray[1], 150);
     }
 
+#ifdef _WIN32
     UpdateWaterEffect();
 #ifdef _WIN32
     D3DInterface* anInterface = ((DDImage*)g->mDestImage)->mDDInterface->mD3DInterface;

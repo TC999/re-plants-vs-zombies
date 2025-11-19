@@ -394,6 +394,7 @@ FodyWeavers.xsd
 *.app
 
 **/build
+cmake-build/
 **/CMakeCache.txt
 **/cmake_install.cmake
 **/install_manifest.txt
@@ -414,5 +415,6 @@ tools/run/
 tools/read-compiled/target
 *.sublime-workspace
 
-# Cmake
+# cmake
 /cmake-build
+/build
